@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    /*! background colors */
+    --tealdark: #5e8291;
+    --teallight: #a3bfca;
+    --sand: #c7a788;
+    --sand-highlight: #dab897;
+
+    /*! font sizes */
+    --fontsize-h1-desktop: 32px;
+    --fontsize-h1-mobile: 18px;
+
+    --fontsize-h2-desktop: 22px;
+    --fontsize-h2-mobile: 14px;
+
+    --fontsize-button-desktop: 18px;
+    --fontsize-button-mobile: 12px;
+
+    /*! Font Styles */
+    --font-written: 'Annie Use Your Telescope', cursive;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+

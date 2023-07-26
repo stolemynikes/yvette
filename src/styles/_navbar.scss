@@ -1,0 +1,87 @@
+.navbar-under {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    transition: .5s ease;
+    background: var(--tealdark);
+}
+
+.navbar-scroll {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+        div:nth-child(1) {
+            font-size: var(--fontsize-h2-desktop);
+            font-family: 'Annie Use Your Telescope', cursive;
+            padding: 0;
+            color: #000;
+        }
+
+        div:nth-child(2) {
+            gap: 2rem;
+            font-size: var(--fontsize-button-desktop);
+            font-family: 'Montserrat', sans-serif;
+
+            a {
+                color: #000;
+                text-decoration: none;
+                transition: .5s ease;
+                
+                &:hover{
+                    color: var(--tealdark);
+                }
+            }
+        }
+    }
+
+    .navbar-noscroll {
+    background: var(--tealdark);
+        div:nth-child(1) {
+            font-size: var(--fontsize-h2-desktop);
+            font-family: 'Annie Use Your Telescope', cursive;
+            padding: 0;
+            color: var(--sand);
+        }
+
+        div:nth-child(2) {
+            gap: 2rem;
+            font-size: var(--fontsize-button-desktop);
+            font-family: 'Montserrat', sans-serif;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                transition: .5s ease;
+                
+                &:hover{
+                    color: var(--sand)
+                }
+
+                div {
+                    color: #fff;
+                    font-size: var(--fontsize-button-desktop);
+                    font-family: 'Montserrat', sans-serif;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+.navbar-container {
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    color: #fff;
+    padding: 1rem 10%;
+    box-sizing: border-box;
+    z-index: 50;
+    transition: .5s ease;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

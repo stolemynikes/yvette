@@ -1,0 +1,108 @@
+.coaching-container, .honden-container {
+    
+    div:nth-child(1) {
+        position: relative;
+        width: 100%;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 36.25vw;
+        }
+
+        h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-shadow: 1px 1px 2px #707070;
+            
+            font-family: 'Annie Use Your Telescope', cursive;
+            font-size: 4vw;
+            white-space: nowrap;
+            
+        }
+    }
+
+    div:nth-child(2), div:nth-child(4) {
+        margin: 5% 10%;
+        
+
+        p {
+            padding-bottom: 5%;
+            font-family: 'Montserrat', sans-serif;
+            font-size: var(--fontsize-h1-desktop);
+            // color: var(--sand);
+            color: #000;
+            // text-shadow: 1px 1px 2px var(--teallight);
+        }
+        
+        p:last-child {
+            padding-bottom: 0;
+        }
+    }
+
+    div:nth-child(3) {
+        padding: 5% 10%;
+        background: var(--teallight);
+        position: relative;
+
+        p {
+            padding-bottom: 5%;
+            font-family: 'Montserrat', sans-serif;
+            font-size: var(--fontsize-h1-desktop);
+            color: #fff;
+            text-shadow: 1px 1px 2px var(--teallight);
+        }
+
+        ul {
+            li {
+                list-style: inside;
+                // margin-left: 2%;
+                padding-bottom: 5%;
+                font-family: 'Montserrat', sans-serif;
+                font-size: var(--fontsize-h1-desktop);
+                color: #fff;
+                // color: #000;
+                text-shadow: 1px 1px 2px var(--teallight);
+            }
+
+            li:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+    }
+
+
+    div:nth-child(5) {
+            padding: 0% 10% 5% 10%;
+
+            button {
+                border: 2px solid var(--tealdark);
+                background: none;
+                width: 100%;
+                padding: .5rem;
+                font-size: var(--fontsize-h1-desktop);
+                border-radius: 18px;
+                color: var(--tealdark);
+                transition: .5s ease;
+
+                &:hover {
+                    color: #fff;
+                    background: var(--tealdark);
+                }
+            }
+    }
+
+
+}
+
+.coaching-container, .honden-container {
+    div {
+        p:last-child {
+            padding-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,134 @@
+// .adembox-container, .coachingbox-container, .hondenbox-container, .kennisbox-container {
+//     position: relative;
+//     display: flex;
+//     flex-direction: column;
+    
+//     width: 100%;
+//     height: 100%;
+
+//     color: var(--tealdark);
+
+//     border-radius: 12px;
+//     overflow: hidden;
+
+//     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+//     font-family: 'Montserrat', sans-serif;
+
+//     transition: top .3s ease;
+//     top: 0;
+
+//     &:hover {
+//         top: -10px;
+//     }
+    
+
+//     img {
+//         width: 100%;
+//         height: 100%;
+//         object-fit: cover;
+//     }
+
+
+//     div {
+//         margin: 5% 5%;
+//         display: flex;
+//         align-items: center;
+//         flex-direction: column;
+//         h1 {
+//             display: flex;
+//             align-items: center;
+//             font-size: 2vw;
+            
+//         }
+
+//         div {
+//             font-size: 1.5vw;
+//             font-family: 'Annie Use Your Telescope', cursive;
+            
+//         }
+
+//             button {
+//                 width: 100%;
+//                 font-size: var(--fontsize-button-desktop);
+//                 background: none;
+//                 color: var(--tealdark);
+//                 border: 2px solid var(--tealdark);
+//                 padding: .5rem 0;
+//                 border-radius: 12px;
+//                 transition: .3s ease;
+//                 font-family: 'Montserrat', sans-serif;
+
+//                 &:hover {
+//                     background: var(--tealdark);
+//                     color: #fff;
+//                 }
+//             }
+//     }
+// }
+
+.adembox-container, .coachingbox-container, .hondenbox-container, .kennisbox-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    transition: top .5s ease;
+    top: 0;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    border-radius: 18px;
+    overflow: hidden;
+
+    text-decoration: none;
+
+    // color: var(--tealdark);
+    color:  #000;
+
+    &:hover {
+        top: -10px;
+    }
+
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    div {
+        padding: 2% 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+
+        h1 {
+            font-size: 24px;
+        }
+        
+    }
+
+    div:nth-child(3) {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        height: 100%;
+        padding: 0;
+
+        svg {
+            width: 24px;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border-radius: 50%;
+            padding: .2rem;
+            color: #000;
+        }
+    }
+
+
+
+
+}
