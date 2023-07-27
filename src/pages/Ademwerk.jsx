@@ -23,7 +23,7 @@ export default function Ademwerk() {
     console.log(text3Ref);
 
     useEffect(() => {
-        var AdemEl1 = bannerRef.current.children[1];
+        var AdemEl1 = bannerRef.current.children[1].children;
         gsap.fromTo(AdemEl1, {opacity: 0, x: '-50px'}, {opacity: 1, x: '0px' , duration: 1, scrollTrigger: {
             trigger: 'body',
             markers: false,
@@ -94,7 +94,9 @@ export default function Ademwerk() {
 
             <img src={AdemBanner} alt="" />
 
-            <h1>&quot;Leer vrijuit voelen en maak een verandering door&quot;</h1>
+            <div>
+                <h1>&quot;Leer vrijuit voelen en maak een verandering door&quot;</h1>
+            </div>
 
         </div>
 

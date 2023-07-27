@@ -33,7 +33,7 @@
         p {
             padding-bottom: 5%;
             font-family: 'Montserrat', sans-serif;
-            font-size: var(--fontsize-h1-desktop);
+            font-size: var(--fontsize-h2-desktop);
             // color: var(--tealdark);
             color: #000;
             // text-shadow: 1px 1px 2px var(--teallight);
@@ -66,12 +66,12 @@
 
                 p:nth-child(1) {
                     color: #fff;
-                    font-size: var(--fontsize-h1-desktop)
+                    font-size: var(--fontsize-h2-desktop)
                 }
 
                 p:nth-child(2) {
                     color: #fff;
-                    font-size: var(--fontsize-h1-desktop)
+                    font-size: var(--fontsize-h2-desktop)
                 }
 
                 button {

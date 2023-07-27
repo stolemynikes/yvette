@@ -1,29 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Montserrat:wght@400;500;600;700&display=swap');
 
 :root {
-    /*! background colors */
-    --tealdark: #5e8291;
-    --teallight: #a3bfca;
-    --sand: #c7a788;
-    --sand-highlight: #dab897;
+     /*! background colors */
+     --tealdark: #5e8291;
+     --teallight: #a3bfca;
+     --sand: #c7a788;
+     --sand-highlight: #dab897;
 
-    /*! font sizes */
-    --fontsize-h1-desktop: 32px;
-    --fontsize-h1-mobile: 18px;
+     /* --tealdark: #ABCDEF;
+     --teallight: #ABCDEF;
+     --sand: #FEDCBA;
+     --sand-highlight: #F8F0DC; */
+ 
+     /*! font sizes */
+     --fontsize-h1-desktop: 48px;
+ 
+     --fontsize-h2-desktop: 24px;
+ 
+     --fontsize-button-desktop: 20px;
+ 
+     /*! Font Styles */
+     --font-written: 'Annie Use Your Telescope', cursive;
+}
 
-    --fontsize-h2-desktop: 22px;
-    --fontsize-h2-mobile: 14px;
+@media only screen and (max-width: 1440px) {
+    :root {
+        --fontsize-h1-desktop: 40px;
+        --fontsize-h2-desktop: 20px;
+        --fontsize-button-desktop: 18px;
+    
+    }
+}
 
-    --fontsize-button-desktop: 18px;
-    --fontsize-button-mobile: 12px;
+@media only screen and (max-width: 800px) {
+    :root {
+        --fontsize-h1-desktop: 32px;
+        --fontsize-h2-desktop: 16px;
+        --fontsize-button-desktop: 14px;
+    
+    }
+}
 
-    /*! Font Styles */
-    --font-written: 'Annie Use Your Telescope', cursive;
-
+@media only screen and (max-width: 500px) {
+    :root {
+        --fontsize-h1-desktop: 28px;
+        --fontsize-h2-desktop: 14px;
+        --fontsize-button-desktop: 12px;
+    
+    }
 }
 
 * {
     margin: 0;
     padding: 0;
+    line-height: 130%;
 }
 

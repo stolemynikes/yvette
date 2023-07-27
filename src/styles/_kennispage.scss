@@ -7,7 +7,7 @@
     h1 {
         display: flex;
         font-family: 'Annie Use Your Telescope', cursive;
-        font-size: 3vw;
+        font-size: var(--fontsize-h1-desktop);
         align-items: center;
         justify-content: center;
         padding: 5% 0 0 0;
@@ -22,10 +22,11 @@
         div:nth-child(1) {
             padding: 0 0 0 10%;
             flex-direction: column;
-            font-size: var(--fontsize-h1-desktop);
+            font-size: var(--fontsize-h2-desktop);
             justify-content: space-between;
             display: flex;
             height: 100%;
+            font-family: 'Montserrat', sans-serif;
         }
 
         div:nth-child(2) {

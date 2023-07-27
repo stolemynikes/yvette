@@ -12,8 +12,9 @@ export default function AngstVoorHonden() {
 
             <img src={HondenBanner} alt="" />
 
+            <div>
             <h1>&quot;Angst helpt om vooruit te komen&quot;</h1>
-
+            </div>
         </div>
 
         <div>
@@ -31,14 +32,6 @@ export default function AngstVoorHonden() {
         <p>Als je genoeg vertrouwen hebt opgebouwd, kun je daarna in de praktijk rustig oefenen met mijn hond en collega Fred. </p>
         <p>Fred is samen met mij opgeleid. Omdat hij deze beroepstraining heeft genoten kan hij mensen goed lezen en ondersteunen. </p>
         <p>Fred is betrouwbaar, stabiel, zacht in de omgang en een grote leermeester zonder oordeel. </p>
-            {/* <ul>
-                <li>Stress en spanning verminderen</li>
-                <li>Vastgezette emoties en blokkades laten verdwijnen</li>
-                <li>Lichamelijke klachten verzachten of oplossen</li>
-                <li>Mentaal sterker worden</li>
-                <li>Fit en energiek zijn</li>
-            </ul> */}
-
 
         </div>
 
