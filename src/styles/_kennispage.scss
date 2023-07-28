@@ -1,39 +1,97 @@
-.kennis-container {
+// .kennis-container {
 
-    padding: 0 0 0 0;
-    display: flex;
-    flex-direction: column;
+//     padding: 0 0 0 0;
+//     display: flex;
+//     flex-direction: column;
+
+//     h1 {
+//         display: flex;
+//         font-family: 'Annie Use Your Telescope', cursive;
+//         font-size: var(--fontsize-h1-desktop);
+//         align-items: center;
+//         justify-content: center;
+//         padding: 5% 0 0 0;
+//     }
+
+//     div {
+//         display: flex;
+//         height: 70vh;
+//         gap: 2rem;
+//         padding: 5% 0;
+
+//         div:nth-child(1) {
+//             padding: 0 0 0 10%;
+//             flex-direction: column;
+//             font-size: var(--fontsize-h2-desktop);
+//             justify-content: space-between;
+//             display: flex;
+//             height: 100%;
+//             font-family: 'Montserrat', sans-serif;
+//         }
+
+//         div:nth-child(2) {
+//             padding: 0 10% 0 0;
+//             img {
+//                 width: 100%;
+//                 object-fit: cover;
+//             }
+//         }
+//     }
+// }
+
+.kennis-container {
+    padding: 5% 10%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
 
     h1 {
         display: flex;
-        font-family: 'Annie Use Your Telescope', cursive;
-        font-size: var(--fontsize-h1-desktop);
-        align-items: center;
         justify-content: center;
-        padding: 5% 0 0 0;
+        padding-bottom: 5%;
+
+        color:red;
     }
 
     div {
-        display: flex;
-        height: 70vh;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
         gap: 2rem;
-        padding: 5% 0;
 
-        div:nth-child(1) {
-            padding: 0 0 0 10%;
-            flex-direction: column;
-            font-size: var(--fontsize-h2-desktop);
-            justify-content: space-between;
+        div {
             display: flex;
-            height: 100%;
-            font-family: 'Montserrat', sans-serif;
-        }
+            flex-direction: column;
+            justify-content: space-between;
 
-        div:nth-child(2) {
-            padding: 0 10% 0 0;
-            img {
+            p {
+                padding-bottom: 5%;
+                font-family: 'Montserrat', sans-serif;
+                font-size: var(--fontsize-h2-desktop);
+                }
+                p:last-child {
+                    padding-bottom: 0;
+            }
+
+            button {
+                border: 2px solid var(--tealdark);
+                background: none;
                 width: 100%;
-                object-fit: cover;
+                padding: .5rem;
+                font-size: var(--fontsize-button-desktop);
+                border-radius: 18px;
+                color: var(--tealdark);
+                transition: .5s ease;
+    
+                &:hover {
+                    color: #fff;
+                    background: var(--tealdark);
+                }
             }
         }
     }

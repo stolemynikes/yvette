@@ -1,0 +1,155 @@
+.honden-container {
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+    
+    div:nth-child(1) {
+        position: relative;
+        width: 100%;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 36.25vw;
+        }
+
+        div {
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            width: 100%;
+            margin: 0;
+
+            background: rgba(255, 255, 255, 0.1);
+            // background: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.0));
+            // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(5px);
+
+            display: flex;
+            justify-content: center;
+
+            h1 {
+                font-size: var(--fontsize-h1-desktop);
+                color: #fff;
+                padding: 1rem;
+                font-family: 'Annie Use Your Telescope', cursive;
+            }
+        }
+    }
+
+    div:nth-child(2){
+        margin: 5% 10%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+                padding-bottom: 5%;
+                font-family: 'Montserrat', sans-serif;
+                font-size: var(--fontsize-h2-desktop);
+            }
+
+                    
+            p:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+    }
+
+    div:nth-child(3) {
+        padding: 5% 10%;
+        background: var(--teallight);
+
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+        align-items: center;
+
+        img {
+            // height: 50%;
+            // object-fit: scale-down;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0;
+
+            p {
+                padding-bottom: 5%;
+                font-family: 'Montserrat', sans-serif;
+                font-size: var(--fontsize-h2-desktop);
+                color: #fff;
+            }
+
+            p:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+    }
+
+
+    div:nth-child(4) {
+            padding: 5% 10%;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p {
+                padding-bottom: 5%;
+                font-family: 'Montserrat', sans-serif;
+                font-size: var(--fontsize-h2-desktop);
+                }
+                p:last-child {
+                    padding-bottom: 0;
+                }
+
+                button {
+                    border: 2px solid var(--tealdark);
+                    background: none;
+                    width: 100%;
+                    padding: .5rem;
+                    font-size: var(--fontsize-button-desktop);
+                    border-radius: 18px;
+                    color: var(--tealdark);
+                    transition: .5s ease;
+        
+                    &:hover {
+                        color: #fff;
+                        background: var(--tealdark);
+                    }
+                }
+            }
+
+    }
+
+
+}
+
+.coaching-container, .honden-container {
+    div {
+        p:last-child {
+            padding-bottom: 0;
+        }
+    }
+}

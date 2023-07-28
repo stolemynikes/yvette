@@ -23,10 +23,7 @@ export default function Kennismakingsgesprek() {
 
             </div>
 
-            <div>
-                <img src={Foto1} alt="" />
-            </div>
-
+            <img src={Foto1} alt="" />
 
         </div>
 
