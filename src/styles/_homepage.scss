@@ -4,6 +4,7 @@
     .homepage-banner {
         width: 100vw;
         position: relative;
+        background: var(--secondary);
         img {
             object-fit: cover;
             width: 100%;
@@ -17,7 +18,7 @@
             z-index: 20;
             width: 40%;
 
-            font-family: 'Annie Use Your Telescope', cursive;
+            font-family: 'Varela Round', sans-serif;
             font-size: 2vw;
 
             h1 {
@@ -28,15 +29,16 @@
     }
 
     .homepage-text {
-        margin: 10% 10%;
+        padding: 10% 10%;
+        background: var(--secondary);
 
         p {
             padding-bottom: 5%;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Inter';
             font-size: var(--fontsize-h2-desktop);
-            // color: var(--tealdark);
+            // color: var(--primary);
             color: #000;
-            // text-shadow: 1px 1px 2px var(--teallight);
+            // text-shadow: 1px 1px 2px var(--primary-accent);
         }
 
         p:nth-child(2) {
@@ -45,7 +47,7 @@
     }
 
     .homepage-text2 {
-        background: var(--teallight);
+        background: var(--primary-accent);
         width: 100%;
         
 
@@ -61,36 +63,12 @@
             div {
                 display: flex;
                 flex-direction: column;
-                font-family: 'Montserrat', sans-serif;
+                font-family: 'Inter';
                 justify-content: space-evenly;
 
-                p:nth-child(1) {
-                    color: #fff;
-                    font-size: var(--fontsize-h2-desktop)
-                }
-
-                p:nth-child(2) {
-                    color: #fff;
-                    font-size: var(--fontsize-h2-desktop)
-                }
-
-                button {
-                    font-size: var(--fontsize-button-desktop);
-                    background: var(--sand);
-                    color: #fff;
-                    border: 2px solid var(--sand);
-                    padding: .5rem 2rem;
-                    border-radius: 12px;
-                    transition: .3s ease;
-                    font-family: 'Montserrat', sans-serif;
-                    width: 100%;
-    
-                    &:hover {
-                        background: var(--sand-highlight);
-                        border: 2px solid var(--sand-highlight);
-                        color: #fff;
-                    }
-
+                p {
+                    color: var(--primary);
+                    font-size: var(--fontsize-h2-desktop);
                 }
             }
         }

@@ -1,0 +1,70 @@
+//global styling
+
+//!Margin
+
+.m5-10 {
+    margin: 5% 10%;
+}
+
+.p5-10 {
+    padding: 5% 10%;
+}
+
+//! Button
+
+.button {
+    border: 2px solid var(--btncolor);
+    background: none;
+    width: 100%;
+    padding: .5rem;
+    font-size: var(--fontsize-button-desktop);
+    border-radius: 18px;
+    color: var(--btncolor);
+    transition: .5s ease;
+
+    &:hover {
+        color: #fff;
+        background: var(--btncolor);
+    }
+}
+
+/* CSS */
+.button-nav {
+  background-color: var(--btncolor);
+  border: 1px solid #baa1ca;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  outline: 0;
+//   padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+}
+
+@media (min-width: 768px) {
+  .button-nav {
+    padding: 10px 30px;
+  }
+}
+
+//! Fonts
+
+.font-varela {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}

@@ -1,4 +1,5 @@
 .ademwerk-container{
+    overflow: hidden;
 
     img {
         width: 100%;
@@ -40,24 +41,26 @@
                 font-size: var(--fontsize-h1-desktop);
                 color: #fff;
                 padding: 1rem;
-                font-family: 'Annie Use Your Telescope', cursive;
+                font-family: 'Varela Round', sans-serif;
             }
         }
     }
 
     div:nth-child(2), div:nth-child(4) {
-        margin: 5% 10%;
+        
         display: grid;
         gap: 2rem;
         
 
         div {
+            padding: 5% 10%;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            background: var(--secondary);
             p {
                 padding-bottom: 5%;
-                font-family: 'Montserrat', sans-serif;
+                font-family: 'Inter';
                 font-size: var(--fontsize-h2-desktop);
                 color: #000;
             }
@@ -70,15 +73,15 @@
 
     div:nth-child(3) {
         padding: 5% 10%;
-        background: var(--teallight);
+        background: var(--primary-accent);
         position: relative;
 
         p {
             padding-bottom: 5%;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Inter';
             font-size: var(--fontsize-h2-desktop);
-            color: #fff;
-            text-shadow: 1px 1px 2px var(--teallight);
+            color: var(--primary);
+            text-shadow: 1px 1px 2px var(--primary-accent);
         }
 
         div {
@@ -94,9 +97,9 @@
                 
                 li {
                     list-style: inside;
-                    font-family: 'Montserrat', sans-serif;
+                    font-family: 'Inter';
                     font-size: var(--fontsize-h2-desktop);
-                    color: #fff;
+                    color: var(--primary);
             
                 }
     
@@ -114,10 +117,12 @@
 
 
     div:nth-child(4) {
-            
+        background: var(--secondary);
+        padding: 5% 10%;
+    overflow: hidden;            
         p {
             padding-bottom: 5%;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Inter';
             font-size: var(--fontsize-h2-desktop);
             color: #000;
         }
@@ -131,22 +136,6 @@
             
             div {
                 display: flex;
-
-                button {
-                    border: 2px solid var(--tealdark);
-                    background: none;
-                    width: 100%;
-                    padding: .5rem;
-                    font-size: var(--fontsize-button-desktop);
-                    border-radius: 18px;
-                    color: var(--tealdark);
-                    transition: .5s ease;
-        
-                    &:hover {
-                        color: #fff;
-                        background: var(--tealdark);
-                    }
-                }
             }
         }
 

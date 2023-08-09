@@ -15,6 +15,9 @@ import OverOns from './pages/OverOns'
 import Tarieven from './pages/Tarieven'
 import Contact from './pages/Contact'
 
+//global styling
+import './styles/_global.scss'
+
 function App() {
 
     const {pathname} = useLocation();

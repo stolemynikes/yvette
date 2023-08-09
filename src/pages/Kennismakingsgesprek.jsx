@@ -19,7 +19,7 @@ export default function Kennismakingsgesprek() {
                 <p>We bespreken wat jij nodig hebt, zodat ook voor jou ontspanning binnen handbereik komt.</p>
                 <p>Ik kijk ernaar uit om je te leren kennen!</p>
 
-                <button>Afspraak maken</button>
+                <button className='button'>Afspraak maken</button>
 
             </div>
 

@@ -152,7 +152,7 @@ export default function Ademwerk() {
 
                 <p>Gewoon doen! Elke stap is er één.. </p>
 
-                <button>Afspraak plannen</button>
+                <button className='button'>Afspraak plannen</button>
 
                 </div>
 

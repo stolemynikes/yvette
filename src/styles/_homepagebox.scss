@@ -1,72 +1,3 @@
-// .adembox-container, .coachingbox-container, .hondenbox-container, .kennisbox-container {
-//     position: relative;
-//     display: flex;
-//     flex-direction: column;
-    
-//     width: 100%;
-//     height: 100%;
-
-//     color: var(--tealdark);
-
-//     border-radius: 12px;
-//     overflow: hidden;
-
-//     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-//     font-family: 'Montserrat', sans-serif;
-
-//     transition: top .3s ease;
-//     top: 0;
-
-//     &:hover {
-//         top: -10px;
-//     }
-    
-
-//     img {
-//         width: 100%;
-//         height: 100%;
-//         object-fit: cover;
-//     }
-
-
-//     div {
-//         margin: 5% 5%;
-//         display: flex;
-//         align-items: center;
-//         flex-direction: column;
-//         h1 {
-//             display: flex;
-//             align-items: center;
-//             font-size: 2vw;
-            
-//         }
-
-//         div {
-//             font-size: 1.5vw;
-//             font-family: 'Annie Use Your Telescope', cursive;
-            
-//         }
-
-//             button {
-//                 width: 100%;
-//                 font-size: var(--fontsize-button-desktop);
-//                 background: none;
-//                 color: var(--tealdark);
-//                 border: 2px solid var(--tealdark);
-//                 padding: .5rem 0;
-//                 border-radius: 12px;
-//                 transition: .3s ease;
-//                 font-family: 'Montserrat', sans-serif;
-
-//                 &:hover {
-//                     background: var(--tealdark);
-//                     color: #fff;
-//                 }
-//             }
-//     }
-// }
-
 .adembox-container, .coachingbox-container, .hondenbox-container, .kennisbox-container {
     position: relative;
     display: flex;
@@ -77,14 +8,14 @@
 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter';
 
     border-radius: 18px;
     overflow: hidden;
 
     text-decoration: none;
 
-    // color: var(--tealdark);
+    // color: var(--primary);
     color:  #000;
 
     &:hover {

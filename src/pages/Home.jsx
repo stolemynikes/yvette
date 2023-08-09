@@ -28,8 +28,17 @@ export default function Home() {
         <div className='homepage-text'>
 
             <p>Je denkt de hele dag aan wat je nog moet doen, je boodschappenlijstje, wat je gaat eten, de dingen waar je niet aan toegekomen bent. </p>
-            <p>Je piekert over je gezondheid, je naasten, belangrijke keuzes die je moet maken. Je hoofd staat niet stil, gedachten dringen zich op en je denken gaat steeds door. Je komt niet tot ontspanning, bent overprikkelt en je voelt de druk dat je tekort schiet</p>
+            <p>Je piekert over je gezondheid, je naasten, belangrijke keuzes die je moet maken. Je hoofd staat niet stil, gedachten dringen zich op en je denken gaat steeds door. Je komt niet tot ontspanning, bent overprikkelt en je voelt de druk dat je tekort schiet.</p>
             
+        </div>
+
+        <div className="homepage-boxes">
+
+        <HomeAdemBox/>
+        <HomeCoachingBox/>
+        <HomeHondenBox/>
+        <HomeKennisBox/>
+
         </div>
 
         <div className='homepage-text2'>
@@ -44,20 +53,11 @@ export default function Home() {
 
                     <p>In een vrijblijvend kennismakingsgesprek krijgen we samen helder wat jouw specifieke vraag is en hoe ik jou kan ondersteunen. </p>
 
-                    <button>Afspraak maken</button>
+                    <button className='button'>Afspraak maken</button>
 
                 </div>
 
             </div>
-
-        </div>
-
-        <div className="homepage-boxes">
-
-            <HomeAdemBox/>
-            <HomeCoachingBox/>
-            <HomeHondenBox/>
-            <HomeKennisBox/>
 
         </div>
 

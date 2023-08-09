@@ -39,7 +39,7 @@
                 font-size: var(--fontsize-h1-desktop);
                 color: #fff;
                 padding: 1rem;
-                font-family: 'Annie Use Your Telescope', cursive;
+                font-family: 'Varela Round', sans-serif;
             }
         }
     }
@@ -57,7 +57,7 @@
 
             p {
                 padding-bottom: 5%;
-                font-family: 'Montserrat', sans-serif;
+                font-family: 'Inter';
                 font-size: var(--fontsize-h2-desktop);
             }
 
@@ -71,7 +71,7 @@
 
     div:nth-child(3) {
         padding: 5% 10%;
-        background: var(--teallight);
+        background: var(--primary-accent);
 
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -91,7 +91,7 @@
 
             p {
                 padding-bottom: 5%;
-                font-family: 'Montserrat', sans-serif;
+                font-family: 'Inter';
                 font-size: var(--fontsize-h2-desktop);
                 color: #fff;
             }
@@ -117,27 +117,11 @@
 
                 p {
                 padding-bottom: 5%;
-                font-family: 'Montserrat', sans-serif;
+                font-family: 'Inter';
                 font-size: var(--fontsize-h2-desktop);
                 }
                 p:last-child {
                     padding-bottom: 0;
-                }
-
-                button {
-                    border: 2px solid var(--tealdark);
-                    background: none;
-                    width: 100%;
-                    padding: .5rem;
-                    font-size: var(--fontsize-button-desktop);
-                    border-radius: 18px;
-                    color: var(--tealdark);
-                    transition: .5s ease;
-        
-                    &:hover {
-                        color: #fff;
-                        background: var(--tealdark);
-                    }
                 }
             }
 
