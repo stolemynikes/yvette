@@ -107,7 +107,7 @@ export default function Coaching() {
                 <p>Neem dan via onderstaande button contact met me op. </p>
                 <p>Gewoon doen! Elke stap is er één. </p>
 
-                <button className='button'>Afspraak plannen</button>
+                <button className='button'>Afspraak maken</button>
             </div>
 
             <div>

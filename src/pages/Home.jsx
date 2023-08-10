@@ -21,7 +21,7 @@ export default function Home() {
             <img src={Banner} alt="" />
 
             <div>
-                <h1>Voel jij teveel onrust en wil jij weer ontspannen leven?</h1>
+                <h1>Voel jij te veel onrust en wil je weer ontspannen leven?</h1>
             </div>
         </div>
 
@@ -32,7 +32,7 @@ export default function Home() {
             
         </div>
 
-        <div className="homepage-boxes">
+        <div className="homepage-boxes" style={{background: '#e7f3de'}}>
 
         <HomeAdemBox/>
         <HomeCoachingBox/>
@@ -49,7 +49,7 @@ export default function Home() {
 
                 <div>
 
-                    <p>Wil jij ook je gedachtestroom tot rust brengen? Neem dan vandaag de 1e stap.  </p>
+                    <p>Wil jij ook je gedachtestroom tot rust brengen? Neem dan vandaag de 1e stap!  </p>
 
                     <p>In een vrijblijvend kennismakingsgesprek krijgen we samen helder wat jouw specifieke vraag is en hoe ik jou kan ondersteunen. </p>
 

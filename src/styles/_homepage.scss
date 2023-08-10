@@ -49,6 +49,7 @@
     .homepage-text2 {
         background: var(--primary-accent);
         width: 100%;
+        padding: 10% 0%;
         
 
         div {
@@ -58,6 +59,8 @@
             img {
                 width: 30%;
                 object-fit: cover;
+                border-radius: 8px;
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
             }
 
             div {
@@ -78,7 +81,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        margin: 10% 10%;
+        padding: 10% 10%;
         gap: 2rem;
     }
 }

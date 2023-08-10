@@ -8,6 +8,7 @@
     --primary-accent: #daefef;
     --secondary: #fbf6ed;
     --btncolor: #baa1ca;
+    --green: #e7f3de;
  
      /*! font sizes */
      --fontsize-h1-desktop: 48px;
@@ -59,7 +60,8 @@
 }
 
 body {
-    margin: 1%;
+    margin: 0% 1% 1% 1%;
+    position: relative;
 }
 
 

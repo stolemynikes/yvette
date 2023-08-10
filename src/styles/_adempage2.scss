@@ -1,0 +1,119 @@
+.ademwerk2-container {
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+
+    .ademwerk-banner {
+        position: relative;
+        width: 100%;
+        background: var(--secondary);
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 36.25vw;
+            border-radius: 0;
+        }
+
+        div {
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            width: 100%;
+            margin: 0;
+
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(5px);
+
+            display: flex;
+            justify-content: center;
+
+            h1 {
+                font-size: var(--fontsize-h1-desktop);
+                color: #fff;
+                padding: 1rem;
+                font-family: 'Varela Round', sans-serif;
+            }
+        }
+    }
+
+    .ademwerk2-text1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        background: var(--secondary);
+
+        div {
+            height: fit-content;
+            font-family: 'Inter';
+            font-size: var(--fontsize-h2-desktop);
+            
+            p {
+                padding-bottom: 2%;
+            }
+        }
+    }
+
+    .ademwerk2-text2 {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+        background: var(--green);
+
+        div {
+            height: fit-content;
+            font-family: 'Inter';
+            font-size: var(--fontsize-h2-desktop);
+
+            p {
+                padding-bottom: 2%;
+
+                &:first-child {
+                    font-weight: bold;
+                }
+
+                &:last-child {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .ademwerk2-text3 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        background: var(--primary-accent);
+
+        div {
+            font-family: 'Inter';
+            font-size: var(--fontsize-h2-desktop);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            p {
+                padding-bottom: 2%;
+
+                &:first-child {
+                    font-weight: bold;
+                }
+
+                &:last-child {
+                    padding: 0;
+                }
+            }
+
+            button {
+                font-size: var(--fontsize-button-desktop);
+            }
+        }
+    }
+}

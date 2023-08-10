@@ -22,17 +22,15 @@ export default function Navbar() {
     // window.addEventListener('scroll', changeColor)
 
   return (
-    <>
-
-    <div className="navbar-under"></div>
-    
+    <div className='navbar-container'>
+            
     <div className="navbar">
 
         <div>
 
             <div className='logo'>
 
-                Yvette van Zadel
+                <Link to='/'>Yvette van Zadel</Link>
 
             </div>
 
@@ -49,15 +47,15 @@ export default function Navbar() {
 
                 <div>
                     <Link to='/ademwerk'>Ademwerk</Link>
-                    <Link>Coaching</Link>
-                    <Link>Angst voor honden</Link>
+                    <Link to='/coaching'>Coaching</Link>
+                    <Link to='/angst-voor-honden'>Angst voor honden</Link>
                 </div>
             </div>
 
 
             <div className='nav-button'>
 
-            <Link className='button-nav'>Kennismakings Gesprek</Link>
+            <Link to='/kennismakingsgesprek' className='button-nav'>Kennismakings Gesprek</Link>
 
             </div>
 
@@ -66,6 +64,6 @@ export default function Navbar() {
 
     </div>
     
-    </>
+    </div>
   )
 }
