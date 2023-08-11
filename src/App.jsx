@@ -17,7 +17,7 @@ import Contact from './pages/Contact'
 
 //global styling
 import './styles/_global.scss'
-import Ademwerk2 from './pages/Ademwerk2'
+import Ademwerk2 from './pages/Ademwerk'
 
 function App() {
 
@@ -36,9 +36,9 @@ function App() {
 
             <Route path="/" exact element={<Home/>}/>\
             <Route path="/*" exact element={<Navigate to='/'/>}/>
-            <Route path='/ademwerk' exact element={<Ademwerk/>}/>
+            {/* <Route path='/ademwerk' exact element={<Ademwerk/>}/> */}
             {/* tijdelijk */}
-                <Route path='/ademwerk2' exact element={<Ademwerk2/>}/>
+                <Route path='/ademwerk' exact element={<Ademwerk/>}/>
             {/*  */}
             <Route path='/coaching' exact element={<Coaching/>}/>
             <Route path='/angst-voor-honden' exact element={<AngstVoorHonden/>}/>

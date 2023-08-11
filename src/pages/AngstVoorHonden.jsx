@@ -13,34 +13,36 @@ export default function AngstVoorHonden() {
   return (
     <div className='honden-container'>
 
-        <div>
+        <div className='honden-banner'>
 
             <img src={HondenBanner} alt="" />
 
             <div>
-            <h1>&quot;Angst helpt om vooruit te komen&quot;</h1>
+                <h1>'Angst helpt om vooruit te komen'</h1>
             </div>
+
         </div>
 
-        <div>
+        <div className='honden-text1 p5-10'>
 
             <div>
                     
                 <p>Je bent op het punt aangekomen van een grote uitdaging en verandering.</p>
                 <p>Want hoe fijn zou het zijn om rustig over straat, het strand of door het bos te kunnen lopen zonder steeds alert te zijn op de aanwezigheid van die harige viervoeters?</p>
-                <p>Angst is hét signaal voor jou om de stap te nemen om vooruit te komen!</p>
+                <p>Angst is hét signaal voor jou om de stap te nemen en vooruit te komen!</p>
 
             </div>
 
             <img src={Foto1} alt="" />
+            
         </div>
 
-        <div>
+        <div className='honden-text2 p5-10'>
 
             <img src={Foto2} alt="" />
 
             <div>
-
+                <p>De plossing zit in jou</p>
                 <p>Door het inzetten van je moed kun jij leren om weer te vertrouwen. Het vertrouwen dat je nodig hebt om in situaties met honden de regie te nemen.</p>
                 <p>Als begeleider ondersteun ik jou bij het herkennen, erkennen en onder controle krijgen van je angst. Samen onderzoeken we welk gedrag de hond laat zien en hoe jij regie kunt nemen op de momenten die ertoe doen.</p>
                 <p>Als je genoeg vertrouwen hebt opgebouwd, kun je daarna in de praktijk rustig oefenen met mijn hond en collega Fred. </p>
@@ -51,10 +53,11 @@ export default function AngstVoorHonden() {
 
         </div>
 
-        <div>
+        <div className='honden-text3 p5-10'>
 
             <div>
 
+                <p>Pak de regie en neem de stap</p>
                 <p>Als jij gemotiveerd bent om de angst aan te pakken doorloop ik samen met jou de 7 stappen van de methode ‘Stappen van Inzicht’. </p>
                 <p>Deze methode helpt je om de angst beheersbaar te maken of misschien wel kwijt te raken.</p>
 
@@ -64,7 +67,7 @@ export default function AngstVoorHonden() {
                 <p>Wil je meer weten over mijn werkwijze en de ‘Stappen van Inzicht’ ? Neem dan via onderstaande button contact met me op. </p>
                 <p>Gewoon doen! Elke stap is er één.</p>
 
-                <button className='button'>Afspraak maken</button>
+                <button className='button-nav'>Afspraak maken</button>
 
             </div>
 
