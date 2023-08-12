@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 //picture import
 import Banner from '../assets/images/homepage/banner.jpg';
@@ -42,7 +43,7 @@ export default function Home() {
 
                     <p>In een vrijblijvend kennismakingsgesprek krijgen we samen helder wat jouw specifieke vraag is en hoe ik jou kan ondersteunen. </p>
 
-                    <button className='button-nav'>Afspraak maken</button>
+                    <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link>
 
                 </div>
 

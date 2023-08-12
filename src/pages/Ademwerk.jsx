@@ -1,5 +1,6 @@
 import React from 'react'
 import { useRef, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 import AdemBanner from '../assets/images/adem/Banner.jpg'
 import Foto1 from '../assets/images/adem/Foto1.jpg'
@@ -85,7 +86,8 @@ export default function Ademwerk() {
 
                     <p>Neem dan via onderstaande button contact met me op</p>
 
-                    <button className='button-nav'>Afspraak maken</button>
+                    {/* <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link> */}
+                    <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link>
 
                 </div>
 

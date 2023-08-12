@@ -1,5 +1,6 @@
 import React from 'react'
 import { useRef, useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 import CoachingBanner from '../assets/images/coaching/Banner.jpg'
 
@@ -117,7 +118,7 @@ export default function Coaching() {
 
                 <p>Neem dan via onderstaande button contact met me op. </p>
 
-                <button className='button-nav'>Afspraak maken</button>
+                <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link>
 
             </div>
 

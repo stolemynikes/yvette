@@ -29,23 +29,27 @@
 }
 
 /* CSS */
+
 .button-nav {
-  background-color: var(--btncolor);
-  border: 1px solid #baa1ca;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  outline: none;
-  outline: 0;
-//   padding: 10px 25px;
-  text-align: center;
-  transform: translateY(0);
-  transition: transform 150ms, box-shadow 150ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+    background-color: var(--btncolor);
+    border: 1px solid #baa1ca;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    outline: 0;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: var(--fontsize-button-desktop);
+    font-family: 'Inter', sans-serif;
 
   &:hover {
     box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
@@ -53,9 +57,11 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 500px) {
   .button-nav {
-    padding: 10px 30px;
+    a {
+        padding: 5px 15px;
+    }
   }
 }
 

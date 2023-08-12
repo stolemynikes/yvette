@@ -127,3 +127,27 @@
         }
     }
 }
+
+@media (max-width: 1000px) {
+    .ademwerk2-container {
+
+        .ademwerk-banner {
+
+            div {
+
+                h1 {
+                    font-size: var(--fontsize-h2-desktop);
+                    text-align: center;
+                }
+            }
+        }
+
+        .ademwerk2-text1, .ademwerk2-text2, .ademwerk2-text3 {
+            grid-template-columns: 1fr;
+
+            img {
+                order: -1;
+            }
+        }
+    }
+}

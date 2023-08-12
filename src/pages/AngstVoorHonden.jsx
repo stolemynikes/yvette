@@ -2,6 +2,8 @@ import React from 'react'
 
 import HondenBanner from '../assets/images/honden/Banner.jpg'
 
+import { Link } from 'react-router-dom'
+
 //pictures
 import Foto1 from '../assets/images/honden/Foto1.jpg'
 import Foto2 from '../assets/images/honden/Foto2.jpg'
@@ -67,7 +69,7 @@ export default function AngstVoorHonden() {
                 <p>Wil je meer weten over mijn werkwijze en de ‘Stappen van Inzicht’ ? Neem dan via onderstaande button contact met me op. </p>
                 <p>Gewoon doen! Elke stap is er één.</p>
 
-                <button className='button-nav'>Afspraak maken</button>
+                <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link>
 
             </div>
 

@@ -18,6 +18,7 @@ import Contact from './pages/Contact'
 //global styling
 import './styles/_global.scss'
 import Ademwerk2 from './pages/Ademwerk'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -48,6 +49,8 @@ function App() {
             <Route path='/contact' exact element={<Contact/>}/>
 
         </Routes>
+
+        <Footer/>
 
     </>
   )
