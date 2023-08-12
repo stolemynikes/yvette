@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@react-google-maps/api": "^2.19.2",
     "gsap": "^3.12.2",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",

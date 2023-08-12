@@ -10,7 +10,7 @@ import Home from './pages/Home'
 //router
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import Kennismakingsgesprek from './pages/Kennismakingsgesprek'
-import { useEffect } from 'react'
+import { useEffect , useState} from 'react'
 import OverOns from './pages/OverOns'
 import Tarieven from './pages/Tarieven'
 import Contact from './pages/Contact'

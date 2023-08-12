@@ -6,11 +6,14 @@ export default function Tarieven() {
   return (
     <div className='tarieven-container'>
 
-        <div className='tarieven-header p5-10'>
+        {/* <div className='tarieven-header p5-10'>
             <h1>'Investeren in jezelf geeft Rijkdom'</h1>
-        </div>
+        </div> */}
 
         <div className='tarieven-table p5-10'>
+
+        <h1>'Investeren in jezelf geeft Rijkdom'</h1>
+
             <table>
                 <thead>
                     <tr>
@@ -33,7 +36,7 @@ export default function Tarieven() {
                     </tr>
                     <tr>
                         <td>Ademtraject</td>
-                        <td>5 sessies van 90 minuten inclusief intake en ademanalyse</td>
+                        <td>5 x 90 minuten  incl. intake & ademanalyse</td>
                         <td>€ 425,-</td>
                     </tr>
                     <tr>
@@ -58,19 +61,18 @@ export default function Tarieven() {
                     </tr>
                     <tr>
                         <td>Coachtraject met Fred</td>
-                        <td>5 sessies van 90 minuten inclusief intake</td>
+                        <td>5 x 90 minuten  incl. intake</td>
                         <td>€ 465,-</td>
                     </tr>
                     <tr>
                         <td>Angst voor Honden Traject</td>
-                        <td>5 sessies van 90 minuten inclusief intake</td>
+                        <td>5 x 90 minuten  incl. intake</td>
                         <td>€ 465,-</td>
                     </tr>
                 </tbody>
             </table>
-            <p>Alle tarieven zijn inclusief BTW en exclusief reiskosten van € 0,21 per kilometer ( > 5 km).</p>
+            <p>Alle tarieven zijn inclusief BTW en exclusief reiskosten van € 0,21 per kilometer ( {'>'} 5 km).</p>
         </div>
-
 
     </div>
   )

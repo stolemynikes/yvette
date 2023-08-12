@@ -1,27 +1,37 @@
 .tarieven-container {
 
-    .tarieven-header {
-        margin-top: 1%;
-        background: var(--secondary);
-        font-size: var(--fontsize-h2-desktop);
+    // .tarieven-header {
+    //     margin-top: 1%;
+    //     background: var(--secondary);
+    //     font-size: var(--fontsize-h2-desktop);
         
-         h1 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Varela Round', sans-serif;
-            font-weight: bold;
+    //      h1 {
+    //         display: flex;
+    //         align-items: center;
+    //         justify-content: center;
+    //         font-family: 'Varela Round', sans-serif;
+    //         font-weight: bold;
             
-         }
-    }
+    //      }
+    // }
 
     .tarieven-table {
         margin-top: 1%;
         border-collapse: collapse;
         font-size: var(--fontsize-h3-desktop);
         font-family: 'Inter', sans-serif;
-        min-width: 400px;
+        min-width: 500px;
         background: var(--primary-accent);
+
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Varela Round', sans-serif;
+            font-size: var(--fontsize-h1-desktop);
+            font-weight: bold;
+            padding-bottom: 5%;
+         }
 
        table {
         border-collapse: collapse;
@@ -72,6 +82,7 @@
             }
 
             th ,td {
+                font-size: var(--fontsize-button-desktop);
                 display: flex;
                 justify-content: center;
                 align-items: center;
