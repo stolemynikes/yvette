@@ -12,7 +12,9 @@ export default function HomeCoachingBox() {
   return (
     <Link to='/coaching' className='coachingbox-container'>
 
-        <img src={BoxPhoto} alt="" />
+        <div>
+            <img src={BoxPhoto} alt="" />
+        </div>
 
         <div>
 

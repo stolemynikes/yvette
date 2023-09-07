@@ -31,6 +31,7 @@
     .homepage-text1 {
         margin-top: 1%;
         background: var(--secondary);
+
         
         p {
             font-size: var(--fontsize-h2-desktop);
@@ -70,6 +71,10 @@
                 padding-bottom: 2%;
                 font-family: 'Inter', sans-serif;
 
+                &:first-child{
+                    font-weight: bold;
+                }
+
                 &:last-child {
                     padding: 0;
                 }
@@ -107,13 +112,27 @@
             display: grid;
             grid-template-columns: 1fr;
             // grid-template-rows: repeat(4, 1fr);
+
+        }
+
+        .homepage-text1 {
+
+            p {
+                padding-bottom: 4%;
+            }
+
         }
     
         .homepage-text2 {
             grid-template-columns: 1fr;
             gap: 1rem;
 
-
+            div {
+                p {
+                    padding-bottom: 4%;
+                }
+            }
         }
+
     }
 }

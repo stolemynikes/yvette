@@ -88,15 +88,15 @@ export default function Navbar() {
                 ?
                         <div className='mobile-navbar'>
                 
-                        <div >
+                        <div>
         
                             <Link onClick={toggleNavbar} to='/'>Home</Link>
-                            <Link onClick={toggleNavbar} to='/over-ons'>Over ons</Link>
-                            <Link onClick={toggleNavbar} to='/tarieven'>Tarieven</Link>
-                            <Link onClick={toggleNavbar} to='/contact'>Contact</Link>
                             <Link onClick={toggleNavbar} to='/ademwerk'>Ademwerk</Link>
                             <Link onClick={toggleNavbar} to='/coaching'>Coaching</Link>
                             <Link onClick={toggleNavbar} to='/angst-voor-honden'>Angst voor honden</Link>
+                            <Link onClick={toggleNavbar} to='/over-ons'>Over ons</Link>
+                            <Link onClick={toggleNavbar} to='/tarieven'>Tarieven</Link>
+                            <Link onClick={toggleNavbar} to='/contact'>Contact</Link>
                             <Link onClick={toggleNavbar} to='/kennismakingsgesprek' className='button-nav'>Kennismakings Gesprek</Link>
         
                         </div>

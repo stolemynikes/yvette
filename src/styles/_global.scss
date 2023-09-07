@@ -31,6 +31,9 @@
 /* CSS */
 
 .button-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--btncolor);
     border: 1px solid #baa1ca;
     border-radius: 4px;
@@ -63,6 +66,7 @@
         padding: 5px 15px;
     }
   }
+
 }
 
 //! Fonts

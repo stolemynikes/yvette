@@ -11,7 +11,9 @@ export default function HomeKennisBox() {
   return (
     <Link to='/kennismakingsgesprek' className='kennisbox-container'>
 
-        <img src={BoxPhoto} alt="" />
+        <div>
+            <img src={BoxPhoto} alt="" />
+        </div>
 
         <div>
 

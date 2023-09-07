@@ -42,8 +42,13 @@
                 font-family: 'Inter', sans-serif;
                 font-size: var(--fontsize-h2-desktop);
 
+                &:first-child{
+                    font-weight: bold;
+                }
+
                 &:last-child {
                     padding: 0;
+                    font-weight: bold;
                 }
             }
 

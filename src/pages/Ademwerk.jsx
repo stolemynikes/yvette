@@ -33,7 +33,7 @@ export default function Ademwerk() {
                 <div>
 
                     <p>'Ademen is meer dan alleen in- en uitademen.'</p>
-                    <p>Je kunt nog zo gezond eten, genoeg bewegen, en goed slapen, als je ademhaling niet op orde is kan het lichaam niet optimaal functioneren.</p>
+                    <p>Je kunt nog zo gezond eten, genoeg bewegen en goed slapen, maar als je ademhaling niet op orde is kan het lichaam niet optimaal functioneren.</p>
                         
                     <p>Elk proces in je lichaam is afhankelijk van een goede ademhaling.</p>
                     <p>Door je ademhaling op de juiste manier te gebruiken kun jij op een eenvoudige manier:</p>
@@ -64,7 +64,9 @@ export default function Ademwerk() {
 
                     <p>De op jou persoonlijk afgestemde ademsessies zorgen voor een direct positief resultaat op fysiek, mentaal, emotioneel en spiritueel niveau.</p>
 
-                    <p>Met een ademanalyse help ik jou om inzicht in je ademhaling te krijgen. De toepassing van verschillende ademtechnieken zorgt ervoor dat je de kracht van de ademhaling ontdekt.</p>
+                    <p>Met een ademanalyse help ik jou om inzicht in je ademhaling te krijgen.</p>
+
+                    <p>De toepassing van verschillende ademtechnieken zorgt ervoor dat je de kracht van de ademhaling ontdekt.</p>
 
                     <p>Ook geef ik je achtergrondinformatie over de werking van de adem. en ga jij thuis aan de slag met de oefeningen die je mee krijgt. Zo kun je tussen de ademsessies door verder gaan met het ontwikkelen van een goede ademhaling.  </p>
 
@@ -84,7 +86,7 @@ export default function Ademwerk() {
 
                     <p>Of wil je het gewoon gaan ervaren?</p>
 
-                    <p>Neem dan via onderstaande button contact met me op</p>
+                    <p>Neem dan via onderstaande button contact met me op.</p>
 
                     {/* <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link> */}
                     <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link>

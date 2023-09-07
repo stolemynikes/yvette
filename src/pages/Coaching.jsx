@@ -69,6 +69,7 @@ export default function Coaching() {
         <div className='coaching-text1 p5-10' ref={text1Ref}>
 
             <div>
+                <p>Ga voor innerlijke verdieping en persoonlijke ontwikkeling</p>
                 <p>Samen met een hond een vraagstuk omtrent je persoonlijke ontwikkeling aanpakken en je eigen mogelijkheden ontdekken? </p>
                 <p>Mijn ervaring is dat dit een prachtige en zachte manier is om jezelf te verkennen.</p>
                 <p>Ik ben er erg enthousiast over omdat het mij een enorme innerlijke verdieping en transformatie heeft gebracht. </p>

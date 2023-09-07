@@ -36,9 +36,9 @@ export default function Footer() {
 
         </div>
 
-        <div className="footer-info">
+        <div className="footer-contact">
 
-            <p>Info</p>
+            <p>Contact</p>
 
             <div>
 
@@ -48,6 +48,20 @@ export default function Footer() {
             </div>
 
         </div>
+
+        <div className="footer-info">
+
+            <p>Info</p>
+
+                <div>
+
+                    <a>Boerhaavestraat 9</a>
+                    <a>1973PH IJmuiden</a>
+                    <a>KvK nummer: 82957045</a>
+
+                </div>
+
+            </div>
 
     </div>
   )

@@ -30,44 +30,59 @@ export default function Tarieven() {
                         <td>Gratis</td>
                     </tr>
                     <tr>
+                        <td>Adem Pakket</td>
+                        <td>
+                            <div>
+                                <p>5 x 90 minuten</p>
+                                <p>inclusief intake en ademanalyse</p>
+                            </div>
+                        </td>
+                        <td>€ 427,-</td>
+                    </tr>
+                    <tr>
                         <td>Ademsessie</td>
                         <td>90 minuten</td>
-                        <td>€ 85,-</td>
+                        <td>€ 87,-</td>
                     </tr>
                     <tr>
-                        <td>Ademtraject</td>
-                        <td>5 x 90 minuten  incl. intake & ademanalyse</td>
-                        <td>€ 425,-</td>
+                        <td>Adem Wandeling</td>
+                        <td>60 minuten </td>
+                        <td>€ 77,-</td>
                     </tr>
                     <tr>
-                        <td>Ademwandeling</td>
-                        <td>120 minuten </td>
-                        <td>€ 95,-</td>
+                        <td>Coaching met Fred Pakket</td>
+                        <td>
+                            <div>
+                                <p>5 x 90 minuten</p>
+                                <p>inclusief intake</p>
+                            </div>
+                        </td>
+                        <td>€ 467,-</td>
                     </tr>
                     <tr>
-                        <td>Coachsessie</td>
-                        <td>120 minuten </td>
-                        <td>€ 95,-</td>
-                    </tr>
-                    <tr>
-                        <td>Ademwandeling </td>
+                        <td>Coach Sessie met Fred</td>
                         <td>90 minuten</td>
-                        <td>€ 85,-</td>
+                        <td>€ 97,-</td>
                     </tr>
                     <tr>
-                        <td>Coachsessie met Fred</td>
+                        <td>Coach Sessie zonder Fred</td>
                         <td>90 minuten</td>
-                        <td>€ 95,-</td>
+                        <td>€ 87,-</td>
                     </tr>
                     <tr>
-                        <td>Coachtraject met Fred</td>
-                        <td>5 x 90 minuten  incl. intake</td>
-                        <td>€ 465,-</td>
+                        <td>Angst voor Honden Pakket</td>
+                        <td>
+                            <div>
+                                <p>5 x 90 minuten</p>
+                                <p>inclusief intake</p>
+                            </div>
+                        </td>
+                        <td>€ 467,-</td>
                     </tr>
                     <tr>
-                        <td>Angst voor Honden Traject</td>
-                        <td>5 x 90 minuten  incl. intake</td>
-                        <td>€ 465,-</td>
+                        <td>Angst voor Honden Sessie</td>
+                        <td>90 minuten</td>
+                        <td>€ 87,-</td>
                     </tr>
                 </tbody>
             </table>

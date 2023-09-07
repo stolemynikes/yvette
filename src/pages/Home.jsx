@@ -39,7 +39,9 @@ export default function Home() {
 
                 <div>
 
-                    <p>Wil jij ook je gedachtestroom tot rust brengen? Neem dan vandaag de 1e stap!  </p>
+                    <p>Wil jij ook je gedachtestroom tot rust brengen?</p>
+
+                    <p>Neem dan vandaag de 1e stap! </p>
 
                     <p>In een vrijblijvend kennismakingsgesprek krijgen we samen helder wat jouw specifieke vraag is en hoe ik jou kan ondersteunen. </p>
 

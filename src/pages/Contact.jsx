@@ -89,7 +89,7 @@ export default function Contact() {
 
                 <div className='contact-phone'>
 
-                    <h2>Telefoon:</h2>
+                    <h2>Telefonisch:</h2>
 
                     <p>Pak de telefoon en we hebben persoonlijk contact. We willen je graag leren kennen.</p>
 

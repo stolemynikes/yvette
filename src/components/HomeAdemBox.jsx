@@ -12,7 +12,9 @@ export default function HomeAdemBox() {
   return (
     <Link to='/ademwerk' className='adembox-container'>
 
-        <img src={BoxPhoto} alt="" />
+        <div>
+            <img src={BoxPhoto} alt="" />
+        </div>
 
         <div>
 

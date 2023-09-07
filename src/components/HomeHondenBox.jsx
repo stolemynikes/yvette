@@ -12,7 +12,9 @@ export default function HomeHondenBox() {
   return (
     <Link to='/angst-voor-honden' className='hondenbox-container'>
 
-        <img src={BoxPhoto} alt="" />
+        <div>
+            <img src={BoxPhoto} alt="" />
+        </div>
 
         <div>
 

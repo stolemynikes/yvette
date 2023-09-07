@@ -90,7 +90,7 @@
 
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
 
     .mobile-navbar {
         display: block;
@@ -116,7 +116,10 @@
                 }
     
                 .hamburger-mobile {
-                    display: block;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    // display: block;
                     svg {
                         // display: block;
                         width: 32px;
@@ -138,10 +141,12 @@
         background: var(--primary);
     
         div {
+            width: 98%;
             display: flex;
             flex-direction: column;
+            justify-content: start;
             padding: 5% 10%;
-            align-items: center;
+            
     
             a {
                 font-size: var(--fontsize-h2-desktop);
@@ -151,6 +156,9 @@
                 color: #fff;
                 padding: .5rem;
     
+            }
+            a {
+                width: 80%;
             }
         }
     }

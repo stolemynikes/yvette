@@ -142,7 +142,7 @@ export default function OverOns() {
 
                     <p>Ik zorg net als Yvette voor ontspanning. </p>
 
-                    <p>Yvette zegt wel eens dat ik pittig eigenwijs kan zijn maar ik denk dat ze mij dan niet goed begrijpt </p>
+                    <p>Yvette zegt wel eens dat ik pittig eigenwijs kan zijn maar ik denk dat ze mij dan niet goed begrijpt.</p>
 
                     <p>Als ik met jou mag werken laat ik je zien waar het in jouw leven over gaat. </p>
 

@@ -18,9 +18,10 @@ export default function Kennismakingsgesprek() {
 
             <div>
 
-                <p>Plan hier je vrijblijvende telefoongesprek van  +/- 30 minuten.</p>
+                <p>Plan hier je gratis gesprek van 30 minuten.</p>
                 <p>Want hoe fijn is het om weer een stap verder te komen?</p>
-                <p>We bespreken wat jij nodig hebt, zodat ook voor jou ontspanning binnen handbereik komt.</p>
+                <p>Ik beantwoord graag je vragen en we bespreken wat jij nodig hebt.</p>
+                <p>Ons gesprek kan telefonisch maar ook via beeldbellen als je dat prettig vindt.</p>
                 <p>Ik kijk ernaar uit om je te leren kennen!</p>
 
                 <Link className='button-nav' to='https://calendly.com/jocktmp-gcmeo/test-afspraak'>Afspraak maken</Link>
