@@ -69,7 +69,7 @@ export default function AngstVoorHonden() {
                 <p>Wil je meer weten over mijn werkwijze en de ‘Stappen van Inzicht’ ? Neem dan via onderstaande button contact met me op. </p>
                 <p>Gewoon doen! Elke stap is er één.</p>
 
-                <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link>
+                <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakings Gesprek</Link>
 
             </div>
 

@@ -32,7 +32,7 @@ export default function Ademwerk() {
 
                 <div>
 
-                    <p>'Ademen is meer dan alleen in- en uitademen.'</p>
+                    <p>Ademen is meer dan alleen in- en uitademen.</p>
                     <p>Je kunt nog zo gezond eten, genoeg bewegen en goed slapen, maar als je ademhaling niet op orde is kan het lichaam niet optimaal functioneren.</p>
                         
                     <p>Elk proces in je lichaam is afhankelijk van een goede ademhaling.</p>
@@ -60,7 +60,7 @@ export default function Ademwerk() {
 
                 <div>
 
-                    <p>'Zet je adem doelgericht in'</p>
+                    <p>Zet je adem doelgericht in</p>
 
                     <p>De op jou persoonlijk afgestemde ademsessies zorgen voor een direct positief resultaat op fysiek, mentaal, emotioneel en spiritueel niveau.</p>
 
@@ -80,7 +80,7 @@ export default function Ademwerk() {
 
                 <div>
 
-                    <p>'Pak de regie en kies voor ontspanning'</p>
+                    <p>Pak de regie en kies voor ontspanning</p>
 
                     <p>Wil je meer weten over mijn werkwijze en de grote voordelen van een goede ademhaling?</p>
 
@@ -88,8 +88,8 @@ export default function Ademwerk() {
 
                     <p>Neem dan via onderstaande button contact met me op.</p>
 
-                    {/* <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link> */}
-                    <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link>
+                    {/* <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakings Gesprek</Link> */}
+                    <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakings Gesprek</Link>
 
                 </div>
 

@@ -24,34 +24,34 @@ export default function Coaching() {
 
     // console.log(text1Ref.current.children)
 
-//     useEffect(() => {
-//         var AdemEl1 = bannerRef.current.children[1].children;
-//         gsap.fromTo(AdemEl1, {opacity: 0, x: '-50px'}, {opacity: 1, x: '0px' , duration: 1, scrollTrigger: {
-//             trigger: 'body',
-//             markers: false,
-//             start: "top center",
-//         }})
+    useEffect(() => {
+        var AdemEl1 = bannerRef.current.children[1].children;
+        gsap.fromTo(AdemEl1, {opacity: 0, x: '-50px'}, {opacity: 1, x: '0px' , duration: 1, scrollTrigger: {
+            trigger: 'body',
+            markers: false,
+            start: "top center",
+        }})
 
-//         var AdemEl2 = text1Ref.current.children
+        var AdemEl2 = text1Ref.current.children
 
-//         for(var i = 0; i < AdemEl2.length; i++){
-//             gsap.fromTo(AdemEl2[i], {opacity: 0, y: +50}, {opacity: 1, y: 0 , duration: .75, scrollTrigger: {
-//                 trigger: AdemEl2[i],
-//                 markers: true,
-//                 start: "top center",
-//             }})
-//         }
+        for(var i = 0; i < AdemEl2.length; i++){
+            gsap.fromTo(AdemEl2[i], {opacity: 0, y: +50}, {opacity: 1, y: 0 , duration: .75, scrollTrigger: {
+                trigger: AdemEl2[i],
+                markers: true,
+                start: "top center",
+            }})
+        }
 
-//         var AdemEl3 = text2Ref.current.children
+        var AdemEl3 = text2Ref.current.children
 
-//         for(var i = 0; i < AdemEl3.length; i++){
-//             gsap.fromTo(AdemEl3[i], {opacity: 0, y: +50}, {opacity: 1, y: 0 , duration: .75, scrollTrigger: {
-//                 trigger: AdemEl3[i],
-//                 markers: true,
-//                 start: "top center",
-//             }})
-//         }
-// })
+        for(var i = 0; i < AdemEl3.length; i++){
+            gsap.fromTo(AdemEl3[i], {opacity: 0, y: +50}, {opacity: 1, y: 0 , duration: .75, scrollTrigger: {
+                trigger: AdemEl3[i],
+                markers: true,
+                start: "top center",
+            }})
+        }
+})
 
   return (
         <div className='coaching-container'>
@@ -119,7 +119,7 @@ export default function Coaching() {
 
                 <p>Neem dan via onderstaande button contact met me op. </p>
 
-                <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link>
+                <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakings Gesprek</Link>
 
             </div>
 

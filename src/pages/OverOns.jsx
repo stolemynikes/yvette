@@ -32,7 +32,7 @@ export default function OverOns() {
 
                 <div>
                     
-                    <p>‘Spanning is wie je denkt te moeten zijn, ontspanning is wie je bent’</p>
+                    <p>Spanning is wie je denkt te moeten zijn, ontspanning is wie je bent</p>
 
                     <p>In een bedrijfstraining ontdekte ik dat mijn talent ‘het brengen van ontspanning’ is. 
                     Ik was verbaasd door deze uitkomst maar als ik naar mezelf kijk en hoe ik omga met mensen en dieren, dan klopt het. Daar gaat mijn innerlijk vuur van aan.</p>
@@ -85,7 +85,7 @@ export default function OverOns() {
 
                 <div>
 
-                    <p>'Begrip zorgt voor Verbinding’</p>
+                    <p>Begrip zorgt voor Verbinding</p>
 
                     <p>Ik ben de leermeester en inspirator van Yvette. Zonder mij zou dit bedrijf niet bestaan.</p>
 
@@ -123,7 +123,7 @@ export default function OverOns() {
                 </div>
 
                 <div>
-                    <p>'Zachtheid zet je in beweging’</p>
+                    <p>Zachtheid zet je in beweging</p>
 
                     <p>Als adoptiehond ben ik vanuit Spanje naar Nederland gekomen. 
                     Ik ben door een dierenactivist bij een jager weggehaald. </p>

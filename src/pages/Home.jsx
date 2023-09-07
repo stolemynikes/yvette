@@ -1,6 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+//gsap
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
+gsap.registerPlugin(ScrollTrigger);
+import { useRef, useEffect } from 'react';
+
 //picture import
 import Banner from '../assets/images/homepage/banner.jpg';
 import HomePhoto from '../assets/images/homepage/Foto1.jpg'
@@ -45,7 +51,7 @@ export default function Home() {
 
                     <p>In een vrijblijvend kennismakingsgesprek krijgen we samen helder wat jouw specifieke vraag is en hoe ik jou kan ondersteunen. </p>
 
-                    <Link className='button-nav' to='/kennismakingsgesprek'>Afspraak maken</Link>
+                    <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakings Gesprek</Link>
 
                 </div>
 
