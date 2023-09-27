@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
 
 :root {
      /*! background colors */
@@ -64,5 +65,6 @@ body {
     margin: 0% 1% 1% 1%;
     position: relative;
 }
+
 
 

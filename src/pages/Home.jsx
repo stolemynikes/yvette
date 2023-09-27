@@ -19,6 +19,8 @@ import HomeAdemBox from '../components/HomeAdemBox';
 import HomeCoachingBox from '../components/HomeCoachingBox';
 import HomeHondenBox from '../components/HomeHondenBox';
 import HomeKennisBox from '../components/HomeKennisBox';
+import Testimonials from '../components/Testimonials';
+import Slider from '../components/Slider';
 
 export default function Home() {
   return (
@@ -33,8 +35,9 @@ export default function Home() {
         </div>
 
         <div className='homepage-text1 p5-10'>
-
+            <p>Je hoofd staat niet stil</p>
             <p>Je denkt de hele dag aan wat je nog moet doen, je boodschappenlijstje, wat je gaat eten, de dingen waar je niet aan toegekomen bent. </p>
+            <p>Je komt niet tot ontspanning</p>
             <p>Je piekert over je gezondheid, je naasten, belangrijke keuzes die je moet maken. Je hoofd staat niet stil, gedachten dringen zich op en je denken gaat steeds door. Je komt niet tot ontspanning, bent overprikkelt en je voelt de druk dat je tekort schiet.</p>
             
         </div>
@@ -64,6 +67,13 @@ export default function Home() {
             <HomeHondenBox/>
             <HomeKennisBox/>
 
+        </div>
+
+        <div className='testimonials-boxes p5-10'>
+            {/* <h1>Testimonials</h1> */}
+            <div>
+                <Slider/>
+            </div>
         </div>
 
     </div>

@@ -11,7 +11,7 @@ export default function OverOns() {
   return (
     <div className='overons-container'>
 
-        <div className='overons-banner'>
+        <div className='page-banner'>
 
             <img src={Banner} alt="" />
 

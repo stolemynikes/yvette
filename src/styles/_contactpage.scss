@@ -10,8 +10,9 @@
         align-items: center;
 
         h1 {
-            font-size: var(--fontsize-h1-desktop);
+            font-size: 3vw;
             font-family: 'Varela Round', sans-serif;
+            text-align: center;
         }
 
         p {
@@ -243,6 +244,16 @@
             padding-top: 0;
         }
     }
+    .contact-container {
+        .contact-header {
+            h1 {
+                padding: 2% 0;
+                text-align: center;
+                font-size: 4vw;
+            }
+        }
+
+    }
   }
 
   @media (max-width: 500px) {
@@ -251,6 +262,7 @@
             h1 {
                 padding: 2% 0;
                 text-align: center;
+                font-size: 4vw;
             }
         }
 

@@ -7,6 +7,14 @@ import Foto1 from '../assets/images/adem/Foto1.jpg'
 import Foto2 from '../assets/images/adem/Foto2.jpg'
 import Foto3 from '../assets/images/adem/Foto3.jpg'
 
+//logos
+import HERLEVA from '../assets/images/certificaten/HERLEVA.webp';
+import CRKBO from '../assets/images/certificaten/CRKBO.png'
+import KTNO from '../assets/images/certificaten/KTNO.svg'
+import BATC from '../assets/images/certificaten/BATC.png'
+import LVNG from '../assets/images/certificaten/LVNG.png'
+// import HERLEVA2 from '../assets/images/certificaten/HERLEVA.webp'
+
 import '../styles/_adempage.scss'
 
 
@@ -18,7 +26,7 @@ export default function Ademwerk() {
 
         <div className="ademwerk2-container">
 
-            <div className='ademwerk-banner'>
+            <div className='page-banner'>
 
                 <img src={AdemBanner} alt="" />
 
@@ -95,6 +103,16 @@ export default function Ademwerk() {
 
             <img src={Foto3} alt="" />
                 
+            </div>
+
+            <div className='certificaten-logos p5-10'>
+
+                <img src={HERLEVA} alt="" />
+                <img src={CRKBO} alt="" />
+                <img src={KTNO} alt="" />
+                <img src={BATC} alt="" />
+                <img src={LVNG} alt="" />
+
             </div>
 
         </div>

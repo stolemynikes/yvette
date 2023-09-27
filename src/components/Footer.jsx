@@ -43,7 +43,7 @@ export default function Footer() {
             <div>
 
                 <a>+31 6 27 28 14 58</a>
-                <a>fred.en.yvette@outlook.com</a>
+                <a>info@yvettevanzadel.nl</a>
 
             </div>
 

@@ -9,40 +9,6 @@
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     }
 
-    .ademwerk-banner {
-        position: relative;
-        width: 100%;
-
-        img {
-            object-fit: cover;
-            width: 100%;
-            height: 36.25vw;
-            border-radius: 0;
-        }
-
-        div {
-            position: absolute;
-            bottom: 5px;
-            left: 0;
-            width: 100%;
-            margin: 0;
-
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(5px);
-
-            display: flex;
-            justify-content: center;
-
-            h1 {
-                font-size: var(--fontsize-h1-desktop);
-                color: #fff;
-                padding: 1rem;
-                font-family: 'Varela Round', sans-serif;
-            }
-        }
-    }
-
     .ademwerk2-text1 {
         margin-top: 1%;
         display: grid;
@@ -65,6 +31,7 @@
 
             li {
                 // font-style: italic;
+                font-weight: 500;
             }
         }
     }

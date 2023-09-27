@@ -35,10 +35,10 @@
             display: flex;
             flex-direction: column;
             gap: 0;
-            justify-content: center;
+            justify-content: end;
 
             p {
-                padding-bottom: 1%;
+                padding-bottom: 2%;
                 font-family: 'Inter', sans-serif;
                 font-size: var(--fontsize-h2-desktop);
 
@@ -46,8 +46,7 @@
                     font-weight: bold;
                 }
 
-                &:last-child {
-                    padding: 0;
+                &:nth-child(5) {
                     font-weight: bold;
                 }
             }

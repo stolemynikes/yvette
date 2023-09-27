@@ -9,13 +9,19 @@ import Foto1 from '../assets/images/honden/Foto1.jpg'
 import Foto2 from '../assets/images/honden/Foto2.jpg'
 import Foto3 from '../assets/images/honden/Foto3.jpg'
 
+//logos
+import UWV from '../assets/images/certificaten/UWV.png'
+import CRKBO from '../assets/images/certificaten/CRKBO.png'
+import APDT from '../assets/images/certificaten/APDT.png'
+import NVGH from '../assets/images/certificaten/NVGH.svg'
+
 import '../styles/_hondenpage.scss'
 
 export default function AngstVoorHonden() {
   return (
     <div className='honden-container'>
 
-        <div className='honden-banner'>
+        <div className='honden-banner page-banner'>
 
             <img src={HondenBanner} alt="" />
 
@@ -77,7 +83,12 @@ export default function AngstVoorHonden() {
 
         </div>
 
-        <div>
+
+        <div className="certificaten-logos p5-10">
+            <img src={UWV} alt="" />
+            <img src={CRKBO} alt="" />
+            <img src={APDT} alt="" />
+            <img src={NVGH} alt="" />
         </div>
 
 

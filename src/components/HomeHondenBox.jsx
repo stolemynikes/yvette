@@ -21,7 +21,7 @@ export default function HomeHondenBox() {
             <h1>Angst voor honden</h1>
 
             <div>
-                <p>&quot;Samen met een hond jezelf ontdekken&quot;</p>
+                <p>&quot;Toon je lef&quot;</p>
             </div>
 
             {/* <button>Meer over coaching</button> */}

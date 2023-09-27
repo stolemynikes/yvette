@@ -1,4 +1,8 @@
-import React from "react";
+import React from 'react'
+import { useState, useEffect } from 'react'
+
+//styling
+// import '../styles/_slider.scss'
 
 const AdemwerkTestimonials = [
     {
@@ -49,42 +53,51 @@ const CoachingTestimonials = [
     }
 ]
 
-export default function Testimonials() {
+export default function Slider() {
+    const [people] = useState(AdemwerkTestimonials);
+    const [index, setIndex] = useState(0);
 
-    return(
-        <>
-            <div>
-                <h1>Ademwerk</h1>
-                {AdemwerkTestimonials.map(function(data) {
-                    return (
-                        <div key={data.id}>
-                            <p>{data.description}</p>
-                        </div>
-                    )
-                })}
-            </div>
+    useEffect(() => {
+        const lastIndex = people.length - 1;
+        if(index < 0) {
+            setIndex(lastIndex);
+        }
+        if(index > lastIndex) {
+            setIndex(0);
+        }
+    }, [index, people])
 
-            <div>
-                <h1>Coaching</h1>
-                {CoachingTestimonials.map(function(data) {
-                    return (
-                        <div key={data.id}>
-                            <p>{data.description}</p>
-                        </div>
-                    )
-                })}
-            </div>
+    useEffect(() => {
+        let slider = setInterval(() => {
+            setIndex(index + 1)
+        }, 5000)
+        return () => {
+            clearInterval(slider)
+        }
+    }, [index])
 
-            <div>
-                <h1>Angst voor honden</h1>
-                {AVHTestimonials.map(function(data) {
-                    return (
-                        <div key={data.id}>
-                            <p>{data.description}</p>
-                        </div>
-                    )
-                })}
-            </div>
-        </>
-    )
+  return (
+    <section>
+        <div>
+            <h1>Top</h1>
+        </div>
+        <div>
+            {people.map((item, indexPeople) => {
+                const {id, description} = item;
+                let position = 'nextSlide';
+                if(indexPeople === index ) {
+                    position = 'activeSlide'
+                }
+                if(indexPeople === index -1 || (index === 0 && indexPeople === people.lenght - 1)) {
+                    position = 'lastSlide'
+                }
+                return (
+                    <article className={position} key={id}>
+                        <p className='text'>{description}</p>
+                    </article>
+                )
+            })}
+        </div>
+    </section>
+  )
 }

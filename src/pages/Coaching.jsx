@@ -16,47 +16,53 @@ import Foto1 from '../assets/images/coaching/Foto1.jpg'
 import Foto2 from '../assets/images/coaching/Foto2.jpg'
 import Foto3 from '../assets/images/coaching/Foto3.jpg'
 
+//logos
+import UWV from '../assets/images/certificaten/UWV.png'
+import CRKBO from '../assets/images/certificaten/CRKBO.png'
+import APDT from '../assets/images/certificaten/APDT.png'
+import NVGH from '../assets/images/certificaten/NVGH.svg'
+
 export default function Coaching() {
 
     const bannerRef = useRef()
     const text1Ref = useRef()
     const text2Ref = useRef()
 
-    // console.log(text1Ref.current.children)
+//     // console.log(text1Ref.current.children)
 
-    useEffect(() => {
-        var AdemEl1 = bannerRef.current.children[1].children;
-        gsap.fromTo(AdemEl1, {opacity: 0, x: '-50px'}, {opacity: 1, x: '0px' , duration: 1, scrollTrigger: {
-            trigger: 'body',
-            markers: false,
-            start: "top center",
-        }})
+//     useEffect(() => {
+//         var AdemEl1 = bannerRef.current.children[1].children;
+//         gsap.fromTo(AdemEl1, {opacity: 0, x: '-50px'}, {opacity: 1, x: '0px' , duration: 1, scrollTrigger: {
+//             trigger: 'body',
+//             markers: false,
+//             start: "top center",
+//         }})
 
-        var AdemEl2 = text1Ref.current.children
+//         var AdemEl2 = text1Ref.current.children
 
-        for(var i = 0; i < AdemEl2.length; i++){
-            gsap.fromTo(AdemEl2[i], {opacity: 0, y: +50}, {opacity: 1, y: 0 , duration: .75, scrollTrigger: {
-                trigger: AdemEl2[i],
-                markers: true,
-                start: "top center",
-            }})
-        }
+//         for(var i = 0; i < AdemEl2.length; i++){
+//             gsap.fromTo(AdemEl2[i], {opacity: 0, y: +50}, {opacity: 1, y: 0 , duration: .75, scrollTrigger: {
+//                 trigger: AdemEl2[i],
+//                 markers: true,
+//                 start: "top center",
+//             }})
+//         }
 
-        var AdemEl3 = text2Ref.current.children
+//         var AdemEl3 = text2Ref.current.children
 
-        for(var i = 0; i < AdemEl3.length; i++){
-            gsap.fromTo(AdemEl3[i], {opacity: 0, y: +50}, {opacity: 1, y: 0 , duration: .75, scrollTrigger: {
-                trigger: AdemEl3[i],
-                markers: true,
-                start: "top center",
-            }})
-        }
-})
+//         for(var i = 0; i < AdemEl3.length; i++){
+//             gsap.fromTo(AdemEl3[i], {opacity: 0, y: +50}, {opacity: 1, y: 0 , duration: .75, scrollTrigger: {
+//                 trigger: AdemEl3[i],
+//                 markers: true,
+//                 start: "top center",
+//             }})
+//         }
+// })
 
   return (
         <div className='coaching-container'>
 
-        <div className='coaching-banner' ref={bannerRef}>
+        <div className='page-banner' ref={bannerRef}>
 
             <img src={CoachingBanner} alt="" />
 
@@ -127,7 +133,16 @@ export default function Coaching() {
 
         </div>
 
+        <div className="certificaten-logos p5-10">
+            <img src={UWV} alt="" />
+            <img src={CRKBO} alt="" />
+            <img src={APDT} alt="" />
+            <img src={NVGH} alt="" />
+        </div>
+
 
     </div>
+
+    
   )
 }
