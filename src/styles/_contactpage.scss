@@ -92,8 +92,13 @@
                 gap: 4px;
                 white-space: nowrap;
 
-                p {
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
                     padding: 0;
+                    text-decoration: none;
+                    color: #000;
                 }
 
                 svg {

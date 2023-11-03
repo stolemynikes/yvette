@@ -19,8 +19,7 @@ import Foto3 from '../assets/images/coaching/Foto3.jpg'
 //logos
 import UWV from '../assets/images/certificaten/UWV.png'
 import CRKBO from '../assets/images/certificaten/CRKBO.png'
-import APDT from '../assets/images/certificaten/APDT.png'
-import NVGH from '../assets/images/certificaten/NVGH.svg'
+import hondenspiegel from '../assets/images/certificaten/hondenspiegel.png'
 
 export default function Coaching() {
 
@@ -125,7 +124,7 @@ export default function Coaching() {
 
                 <p>Neem dan via onderstaande button contact met me op. </p>
 
-                <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakings Gesprek</Link>
+                <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakingsgesprek</Link>
 
             </div>
 
@@ -133,11 +132,24 @@ export default function Coaching() {
 
         </div>
 
-        <div className="certificaten-logos p5-10">
-            <img src={UWV} alt="" />
-            <img src={CRKBO} alt="" />
-            <img src={APDT} alt="" />
-            <img src={NVGH} alt="" />
+        <div className="certificaten-logos-coaching p5-10">
+
+            <div>
+                <p>
+                Gediplomeerd Hondenspiegeltrainer.
+                </p>
+                <img src={hondenspiegel} alt="" />
+            </div>
+
+            <div>
+                <p>Opleiding geaccrediteerd door:</p>
+
+                <div>
+                    <img src={CRKBO} alt="" />
+                    <img src={UWV} alt="" />
+                </div>
+            </div>
+
         </div>
 
 

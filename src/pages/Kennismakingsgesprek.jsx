@@ -24,7 +24,7 @@ export default function Kennismakingsgesprek() {
                 <p>Ons gesprek kan telefonisch maar ook via beeldbellen als je dat prettig vindt.</p>
                 <p>Ik kijk ernaar uit om je te leren kennen!</p>
 
-                <Link className='button-nav' to='https://calendly.com/jocktmp-gcmeo/test-afspraak'>Kennismakings Gesprek</Link>
+                <Link target="_blank" className='button-nav' to='https://calendly.com/yvettevanzadel/30min'>Kennismakingsgesprek</Link>
 
             </div>
 

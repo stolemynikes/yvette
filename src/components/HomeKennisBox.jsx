@@ -20,7 +20,7 @@ export default function HomeKennisBox() {
             <h1>Kennismakingsgesprek</h1>
 
             <div>
-                <p>&quot;Ik kijk naar je uit !&quot;</p>
+                <p>Ik kijk naar je uit!</p>
             </div>
 
         </div>

@@ -4,6 +4,7 @@ import '../styles/_footer.scss'
 import { Link } from 'react-router-dom'
 
 export default function Footer() {
+    
   return (
     <div className='footer-container'>
 
@@ -42,8 +43,8 @@ export default function Footer() {
 
             <div>
 
-                <a>+31 6 27 28 14 58</a>
-                <a>info@yvettevanzadel.nl</a>
+                <p>+31 6 27 28 14 58</p>
+                <a href='mailto:info@yvettevanzadel.nl'>info@yvettevanzadel.nl</a>
 
             </div>
 
@@ -55,9 +56,9 @@ export default function Footer() {
 
                 <div>
 
-                    <a>Boerhaavestraat 9</a>
-                    <a>1973PH IJmuiden</a>
-                    <a>KvK nummer: 82957045</a>
+                    <p>Boerhaavestraat 9</p>
+                    <p>1973PH IJmuiden</p>
+                    <p>KvK nummer: 82957045</p>
 
                 </div>
 

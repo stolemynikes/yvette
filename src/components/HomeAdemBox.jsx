@@ -21,7 +21,7 @@ export default function HomeAdemBox() {
             <h1>Ademwerk</h1>
 
             <div>
-                <p>&quot;Ademen, meer dan alleen in- en uit&quot;</p>
+                <p>Ademen, meer dan alleen in- en uit</p>
             </div>
 
         </div>

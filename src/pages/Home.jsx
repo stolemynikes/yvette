@@ -19,8 +19,10 @@ import HomeAdemBox from '../components/HomeAdemBox';
 import HomeCoachingBox from '../components/HomeCoachingBox';
 import HomeHondenBox from '../components/HomeHondenBox';
 import HomeKennisBox from '../components/HomeKennisBox';
-import Testimonials from '../components/Testimonials';
-import Slider from '../components/Slider';
+
+import AdemSlider from '../components/AdemSlider';
+import CoachingSlider from '../components/CoachingSlider';
+import AVHSlider from '../components/AVHSlider';
 
 export default function Home() {
   return (
@@ -54,7 +56,7 @@ export default function Home() {
 
                     <p>In een vrijblijvend kennismakingsgesprek krijgen we samen helder wat jouw specifieke vraag is en hoe ik jou kan ondersteunen. </p>
 
-                    <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakings Gesprek</Link>
+                    <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakingsgesprek</Link>
 
                 </div>
 
@@ -71,8 +73,20 @@ export default function Home() {
 
         <div className='testimonials-boxes p5-10'>
             {/* <h1>Testimonials</h1> */}
-            <div>
-                <Slider/>
+            <div className='slider-container adem-slider-container'>
+                <AdemSlider/>
+            </div>
+        </div>
+
+        <div className="testimonials-boxes p5-10">
+            <div className='slider-container '>
+                <CoachingSlider/>
+            </div>
+        </div>
+
+        <div className="testimonials-boxes p5-10">
+            <div className='slider-container '>
+                <AVHSlider/>
             </div>
         </div>
 

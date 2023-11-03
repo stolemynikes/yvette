@@ -14,6 +14,7 @@ import UWV from '../assets/images/certificaten/UWV.png'
 import CRKBO from '../assets/images/certificaten/CRKBO.png'
 import APDT from '../assets/images/certificaten/APDT.png'
 import NVGH from '../assets/images/certificaten/NVGH.svg'
+import AVH from '../assets/images/certificaten/AVH2023.png'
 
 import '../styles/_hondenpage.scss'
 
@@ -75,7 +76,7 @@ export default function AngstVoorHonden() {
                 <p>Wil je meer weten over mijn werkwijze en de ‘Stappen van Inzicht’ ? Neem dan via onderstaande button contact met me op. </p>
                 <p>Gewoon doen! Elke stap is er één.</p>
 
-                <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakings Gesprek</Link>
+                <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakingsgesprek</Link>
 
             </div>
 
@@ -84,11 +85,22 @@ export default function AngstVoorHonden() {
         </div>
 
 
-        <div className="certificaten-logos p5-10">
-            <img src={UWV} alt="" />
-            <img src={CRKBO} alt="" />
-            <img src={APDT} alt="" />
-            <img src={NVGH} alt="" />
+        <div className="certificaten-logos-adem p5-10">
+
+            <div>
+                <p>Gediplomeerd begeleider Angst voor honden.</p>
+                <img src={AVH} alt="" />
+            </div>
+
+            <div>
+                <p>Opleiding geaccrediteerd door:</p>
+
+                <div>
+                    <img src={CRKBO} alt="" />
+                    <img src={APDT} alt="" />
+                    <img src={NVGH} alt="" />
+                </div>
+            </div>
         </div>
 
 

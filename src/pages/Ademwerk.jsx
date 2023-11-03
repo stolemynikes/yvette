@@ -48,11 +48,11 @@ export default function Ademwerk() {
 
                     <div>
                         <ul>
-                            <li>Stress en spanning verminderen</li>
-                            <li>Vastgezette emoties en blokkades laten verdwijnen</li>
-                            <li>Lichamelijke klachten verzachten of oplossen</li>
-                            <li>Mentaal sterker worden</li>
-                            <li>Fit en energiek zijn</li>
+                            <li>stress en spanning verminderen,</li>
+                            <li>vastgezette emoties en blokkades laten verdwijnen,</li>
+                            <li>lichamelijke klachten verzachten of oplossen,</li>
+                            <li>mentaal sterker worden,</li>
+                            <li>fit en energiek zijn.</li>
                         </ul>
                     </div>
 
@@ -96,8 +96,8 @@ export default function Ademwerk() {
 
                     <p>Neem dan via onderstaande button contact met me op.</p>
 
-                    {/* <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakings Gesprek</Link> */}
-                    <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakings Gesprek</Link>
+                    {/* <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakingsgesprek</Link> */}
+                    <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakingsgesprek</Link>
 
                 </div>
 
@@ -107,11 +107,25 @@ export default function Ademwerk() {
 
             <div className='certificaten-logos p5-10'>
 
-                <img src={HERLEVA} alt="" />
-                <img src={CRKBO} alt="" />
-                <img src={KTNO} alt="" />
-                <img src={BATC} alt="" />
-                <img src={LVNG} alt="" />
+                <div>
+
+                    <p>Gediplomeerd ademcoach.</p>
+                    <img src={HERLEVA} alt="" />
+
+                </div>
+
+                <div>
+
+                    <p>Opleiding geaccrediteerd door:</p>
+
+                    <div>
+                    <img src={CRKBO} alt="" />
+                    <img src={KTNO} alt="" />
+                    <img src={BATC} alt="" />
+                    <img src={LVNG} alt="" />
+                    </div>
+
+                </div>
 
             </div>
 

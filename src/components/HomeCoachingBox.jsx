@@ -21,7 +21,7 @@ export default function HomeCoachingBox() {
             <h1>Coaching</h1>
 
             <div>
-                <p>&quot;Samen met een hond jezelf ontdekken&quot;</p>
+                <p>Samen met een hond jezelf ontdekken</p>
             </div>
 
             {/* <button>Meer over coaching</button> */}

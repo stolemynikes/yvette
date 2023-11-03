@@ -118,14 +118,77 @@
 
 //certificaten
 .certificaten-logos {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    // padding-top: 5%;
+    display: grid;
+    font-family: 'Inter', sans-serif;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    div {
+        display: grid;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        div {
+            display: grid;
+            // grid-template-columns: repeat(auto-fill, 1fr);
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            @media (max-width: 500px) {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
     img {
-        width: 90px;
-        background: transparent;
+        width: 70px;
+        box-shadow: none;
+    }
+}
+
+.certificaten-logos-adem {
+    display: grid;
+    font-family: 'Inter', sans-serif;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    div {
+        display: grid;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        div {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            @media (max-width: 500px) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+    img {
+        width: 70px;
+        box-shadow: none;
+    }
+}
+
+.certificaten-logos-coaching {
+    display: grid;
+    font-family: 'Inter', sans-serif;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    div {
+        display: grid;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            @media (max-width: 500px) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+    img {
+        width: 70px;
         box-shadow: none;
     }
 }

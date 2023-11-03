@@ -1,9 +1,11 @@
 import React from 'react'
 
 import Banner from '../assets/images/OverOns/Banner.jpg'
-import Yvette from '../assets/images/OverOns/Yvette.jpg'
-import Fred from '../assets/images/OverOns/Fred.jpg'
-import Digby from '../assets/images/OverOns/Digby.jpg'
+import Yvette from '../assets/images/OverOns/Yvette2.jpg'
+import Fred from '../assets/images/OverOns/Fred2.jpg'
+import Digby from '../assets/images/OverOns/Digby2.jpg'
+
+import { Link } from 'react-router-dom'
 
 import '../styles/_overonspage.scss'
 
@@ -25,10 +27,52 @@ export default function OverOns() {
 
             <div>
                 <div>
+                <img src={Yvette} alt="" />
+                </div>
+
+                <div>
+                <p>Spanning is wie je denkt te moeten zijn, ontspanning is wie je bent</p>
+
+                <p>In een bedrijfstraining ontdekte ik dat mijn talent ‘het brengen van ontspanning’ is. 
+                Ik was verbaasd door deze uitkomst maar als ik naar mezelf kijk en hoe ik omga met mensen en dieren, dan klopt het. Daar gaat mijn innerlijk vuur van aan.</p>
+
+                <p>Ik wil dan ook heel graag samen met jou de deuren openen die ervoor zorgen dat jij in de flow van verandering en ontspanning komt. 
+                Want voor een ontspannen mens is geen berg te hoog, geen zee te diep, ligt de wereld aan je voeten en is het leven een feestje.</p>
+
+                <p>Ontspanning zorgt voor ruimte en vrijheid in je hoofd en in je hart en stimuleert lichamelijk herstel. Het maakt dat jij invulling aan je leven kunt geven op de manier die voor jou het beste werkt.</p>
+
+                <p>Door te ontspannen geef je jezelf dus de ruimte om los te laten wat je bezighoudt en creëer je mentale en lichamelijke vrijheid.</p>
+
+                <p>Tijdens mijn coachopleidingen heb ik hard gewerkt om zonder oordeel naar mezelf te kunnen kijken. Om blokkades op te heffen, lichamelijk te herstellen en trauma’s te verwerken. </p>
+
+                <p>Tot een zachter en ontspannen mens die er voor zichzelf en de ander is.</p>
+
+                <p>Ik begrijp daarom heel goed dat het aangaan van een coachtraject niet zomaar iets is wat je even doet. Het vergt inzet, maar het is iets magisch wat ik echt iedereen enorm gun. </p>
+
+                <p>De mogelijkheid om persoonlijk groter te groeien. Te kunnen zijn wie je bent. Te leven vanuit jouw licht.</p>
+
+                <p>Ik ben creatief, liefdevol, beweeg vanuit zachtheid, kan goed relativeren en ben resultaatgericht. Humor vind ik belangrijk net als veiligheid. </p>
+
+                <p>Deze veiligheid bied ik jou in mijn sessies zodat je kunt ontdekken wie je bent en wat je nodig hebt om de door jou gestelde doelen te bereiken.</p>
+
+                <p>Je leeft je leven maar één keer. Gun jezelf dan ook de beste versie. </p>
+
+                <p>Laten we elkaar snel ontmoeten!</p>
+
+                <p>Liefs, Yvette</p>
+
+                <Link to='/kennismakingsgesprek' className='button-nav'>Kennismakingsgesprek</Link>
+                </div>
+
+            </div>
+
+            {/* <div>
+                <div>
 
                     <img src={Yvette} alt="" />
-                    
                 </div>
+                    
+
 
                 <div>
                     
@@ -68,10 +112,10 @@ export default function OverOns() {
 
                 <p>Liefs, Yvette</p>
 
-                <button className='button-nav'>Kennismakings Gesprek</button>
+                <button className='button-nav'>Kennismakingsgesprek</button>
 
 
-            </div>
+            </div> */}
 
         </div>
 

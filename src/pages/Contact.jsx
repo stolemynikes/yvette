@@ -4,6 +4,8 @@ import emailjs from '@emailjs/browser';
 import '../styles/_contactpage.scss'
 // import GoogleMaps from '../components/GoogleMaps'
 
+import Banner from '../assets/images/Contact/Banner3.jpg'
+
 import gsap from 'gsap';
 
 const Popup = ({ message }) => {
@@ -44,7 +46,7 @@ export default function Contact() {
       }
   
       emailjs
-        .sendForm('service_62uy0rd', 'template_9vzrflr', form.current, 'iGEj97IcEM67oB6Y2')
+        .sendForm('service_ml3iuth', 'template_7fq0z4d', form.current, 'iGEj97IcEM67oB6Y2')
         .then(
           (result) => {
             console.log(result.text);
@@ -75,11 +77,21 @@ export default function Contact() {
 
     <div className='contact-container'>
 
-        <div className='contact-header p5-10'>
+        {/* <div className='contact-header p5-10'>
 
             <h1>‘Elke samenwerking begint bij het maken van contact’</h1>
             <p>Wil je contact opnemen? We horen graag van je!</p>
             <p>Hier kun je vinden hoe je ons kunt bereiken…</p>
+
+        </div> */}
+
+        <div className='page-banner'>
+
+        <img src={Banner} alt="" />
+
+        <div>
+            <h1>‘Elke samenwerking begint bij het maken van contact’</h1>
+        </div>
 
         </div>
 
@@ -112,12 +124,15 @@ export default function Contact() {
                     <p>Stuur een email en je bericht wordt binnen 2 dagen beantwoord.</p>
 
                     <div>
+                        <a href='mailto:info@yvettevanzadel.nl'>
 
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                         </svg>
 
                         <p>info@yvettevanzadel.nl</p>
+
+                        </a>
 
                     </div>
 
