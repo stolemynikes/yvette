@@ -55,9 +55,8 @@ export default function Footer() {
             <p>Info</p>
 
                 <div>
-
-                    <p>Boerhaavestraat 9</p>
-                    <p>1973PH IJmuiden</p>
+                    <Link to='/algemene-voorwaarden'>Algemene voorwaarden</Link>
+                    <Link to='/privacyverklaring'>Privacyverklaring</Link>
                     <p>KvK nummer: 82957045</p>
 
                 </div>

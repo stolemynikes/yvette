@@ -77,7 +77,7 @@ export default function Tarieven() {
                                 <p>inclusief intake</p>
                             </div>
                         </td>
-                        <td>€ 467,-</td>
+                        <td>€ 415,-</td>
                     </tr>
                     <tr>
                         <td>Angst voor Honden Sessie</td>

@@ -40,7 +40,7 @@ export default function Home() {
             <p>Je hoofd staat niet stil</p>
             <p>Je denkt de hele dag aan wat je nog moet doen, je boodschappenlijstje, wat je gaat eten, de dingen waar je niet aan toegekomen bent. </p>
             <p>Je komt niet tot ontspanning</p>
-            <p>Je piekert over je gezondheid, je naasten, belangrijke keuzes die je moet maken. Je hoofd staat niet stil, gedachten dringen zich op en je denken gaat steeds door. Je komt niet tot ontspanning, bent overprikkelt en je voelt de druk dat je tekort schiet.</p>
+            <p>Je piekert over je gezondheid, je naasten, belangrijke keuzes die je moet maken. Je hoofd staat niet stil, gedachten dringen zich op en je denken gaat steeds door. Je komt niet tot ontspanning, bent overprikkeld en je voelt de druk dat je tekort schiet.</p>
             
         </div>
 
