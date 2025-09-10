@@ -57,6 +57,9 @@ export default function Navbar() {
                         </div>
         
                         <div>
+                            <NavLink to='/stressmanagement' className={({ isActive}) => 
+                                isActive ? "nav-active" : ""
+                            }>Stressmanagement</NavLink>
                             <NavLink to='/ademwerk' className={({ isActive}) => 
                                 isActive ? "nav-active" : ""
                             }>Ademwerk</NavLink>
@@ -103,8 +106,9 @@ export default function Navbar() {
                         <div className='mobile-navbar'>
                 
                         <div>
-        
+
                             <Link onClick={toggleNavbar} to='/'>Home</Link>
+                            <Link onClick={toggleNavbar} to='/stressmanagement'>Stressmanagement</Link>
                             <Link onClick={toggleNavbar} to='/ademwerk'>Ademwerk</Link>
                             <Link onClick={toggleNavbar} to='/coaching'>Coaching</Link>
                             <Link onClick={toggleNavbar} to='/angst-voor-honden'>Angst voor honden</Link>

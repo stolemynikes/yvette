@@ -42,7 +42,8 @@
                 padding: 0;
             }
 
-            &:nth-child(odd) {
+            &:nth-child(1),
+            &:nth-child(3) {
                 font-weight: bold;
             }
         }

@@ -37,10 +37,16 @@ export default function Home() {
         </div>
 
         <div className='homepage-text1 p5-10'>
-            <p>Je hoofd staat niet stil</p>
-            <p>Je denkt de hele dag aan wat je nog moet doen, je boodschappenlijstje, wat je gaat eten, de dingen waar je niet aan toegekomen bent. </p>
-            <p>Je komt niet tot ontspanning</p>
-            <p>Je piekert over je gezondheid, je naasten, belangrijke keuzes die je moet maken. Je hoofd staat niet stil, gedachten dringen zich op en je denken gaat steeds door. Je komt niet tot ontspanning, bent overprikkeld en je voelt de druk dat je tekort schiet.</p>
+            <p>Je hoofd staat niet stil.</p>
+            <p>Je denkt de hele dag aan wat je nog moet doen, de dingen waar je tegen op ziet en nog niet aan toegekomen bent, de afspraken die je nog hebt, de tijd die je tekort komt.</p>
+            <p>Je komt niet tot ontspanning.</p>
+            <p>Je hoofd staat niet stil, negatieve gedachten dringen zich op en je denken gaat maar door.</p>
+            <p>Je piekert over van alles.</p>
+
+            <p>Je hebt het gevoel dat je de controle kwijt raakt, gespannen en overprikkeld bent.</p>
+            <p>Je voelt de druk dat je tekort schiet en niet goed genoeg bent.</p>
+
+            <p>Je slaapt slecht, bent niet veerkrachtig en hebt weinig energie.</p>
             
         </div>
 
@@ -50,12 +56,12 @@ export default function Home() {
 
                 <div>
 
-                    <p>Wil jij ook je gedachtestroom tot rust brengen?</p>
+                    <p>Wil jij ook meer rust in je hoofd en minder stress ervaren?</p>
 
-                    <p>Neem dan vandaag de 1e stap! </p>
+                    <p>Neem dan vandaag de 1e stap!</p>
 
-                    <p>In een vrijblijvend kennismakingsgesprek krijgen we samen helder wat jouw specifieke vraag is en hoe ik jou kan ondersteunen. </p>
-
+                    <p>In een vrijblijvend kennismakingsgesprek krijgen we samen helder wat jouw specifieke vraag is en hoe ik jou kan ondersteunen.</p>
+                    
                     <Link className='button-nav' to='/kennismakingsgesprek'>Kennismakingsgesprek</Link>
 
                 </div>

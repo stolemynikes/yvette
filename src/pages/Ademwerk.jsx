@@ -48,11 +48,11 @@ export default function Ademwerk() {
 
                     <div>
                         <ul>
-                            <li>stress en spanning verminderen,</li>
-                            <li>vastgezette emoties en blokkades laten verdwijnen,</li>
-                            <li>lichamelijke klachten verzachten of oplossen,</li>
-                            <li>mentaal sterker worden,</li>
-                            <li>fit en energiek zijn.</li>
+                            <li>stress en spanning verminderen</li>
+                            <li>vastgezette emoties en blokkades laten verdwijnen</li>
+                            <li>lichamelijke klachten verzachten of oplossen</li>
+                            <li>mentaal sterker worden</li>
+                            <li>fit en energiek zijn</li>
                         </ul>
                     </div>
 

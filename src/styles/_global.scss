@@ -192,3 +192,28 @@
         box-shadow: none;
     }
 }
+
+.certificaten-logos-stressmanagement {
+    display: grid;
+    font-family: 'Inter', sans-serif;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    div {
+        display: grid;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        div {
+            display: grid;
+            grid-template-columns: 1fr;
+            @media (max-width: 500px) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+    img {
+        width: 140px;
+        box-shadow: none;
+    }
+}
