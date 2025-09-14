@@ -35,7 +35,6 @@ import '../styles/_slider.scss'
 export default function AdemSlider() {
   return (
     <>
-    <h1 className='testimonials-title'>Testimonials</h1>
         <div className='slider-ademwerk'>
             <h1>Ademwerk</h1>
             <Slider infinite={true} touchDisabled={true}>

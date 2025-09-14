@@ -23,6 +23,7 @@ import HomeKennisBox from '../components/HomeKennisBox';
 import AdemSlider from '../components/AdemSlider';
 import CoachingSlider from '../components/CoachingSlider';
 import AVHSlider from '../components/AVHSlider';
+import StressmanagementSlider from '../components/StressmanagementSlider';
 
 export default function Home() {
   return (
@@ -80,6 +81,12 @@ export default function Home() {
         <div className='testimonials-boxes p5-10'>
             {/* <h1>Testimonials</h1> */}
             <div className='slider-container adem-slider-container'>
+                <StressmanagementSlider/>
+            </div>
+        </div>
+
+        <div className="testimonials-boxes p5-10">
+            <div className='slider-container '>
                 <AdemSlider/>
             </div>
         </div>
