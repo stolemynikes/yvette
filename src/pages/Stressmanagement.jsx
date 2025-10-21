@@ -19,7 +19,7 @@ export default function Stressmanagement() {
                 <img src={StressmanagementBanner} alt="" />
 
                 <div>
-                    <h1>'Pak de regie over stress en kies voor veerkracht'</h1>
+                    <h1>'De verborgen wijsheid van het Hart'</h1>
                 </div>
 
             </div>
@@ -28,7 +28,9 @@ export default function Stressmanagement() {
 
                 <div>
 
-                    <p>Onze hedendaagse leefstijl geeft stress. Veel mensen hebben een verhoogd gevoel van spanning en overprikkeling. Je ervaart dit als je onder druk staat en er veel van je wordt gevraagd.</p>
+                    <p>Onze hedendaagse leefstijl geeft stress.</p>
+
+                    <p>Veel mensen hebben een verhoogd gevoel van spanning en overprikkeling. Je ervaart dit als je onder druk staat en er veel van je wordt gevraagd.</p>
 
                     <p>Stress wordt vaak veroorzaakt door situaties die je als moeilijk of overweldigend ervaart. Op het werk, school, in relaties of tijdens veranderingen in je leven.</p>
 
@@ -44,9 +46,11 @@ export default function Stressmanagement() {
 
                 <div>
 
-                    <p>Stress zit niet alleen in je hoofd maar ook in je lichaam. Het zorgt vaak voor een slechte nachtrust en fysieke klachten. Het is daarom belangrijk om de juiste manier te vinden om stress te verminderen.</p>
+                    <p>Stress zit niet alleen in je hoofd maar ook in je lichaam.</p>
 
-                    <p>Een manier die je helpt om weer energie op te bouwen, veerkrachtig, vitaal en stabiel te zijn. Als HeartMath coach bied ik je een programma aan waarin je leert op een simpele en effectieve manier grip te krijgen op de gedachten en emoties die stress veroorzaken.</p>
+                    <p>Het zorgt vaak voor een slechte nachtrust en fysieke klachten. Het is daarom belangrijk om de juiste manier te vinden om stress te verminderen. Een manier die je helpt om weer energie op te bouwen, veerkrachtig, vitaal en stabiel te zijn. </p>
+
+                    <p>Als HeartMath coach bied ik je een programma aan waarin je leert op een simpele en effectieve manier grip te krijgen op de gedachten en emoties die stress veroorzaken.</p>
 
                     <p>De apparatuur die we daarbij gebruiken geeft real-time biofeedback over je hartcoherentie en laat zien hoe je lichaam reageert op stress en emoties. Dit inzicht helpt je om je stressniveau te beheersen en je welzijn te verbeteren.</p>
 

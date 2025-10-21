@@ -18,7 +18,7 @@ import '../styles/_homepage.scss';
 import HomeAdemBox from '../components/HomeAdemBox';
 import HomeCoachingBox from '../components/HomeCoachingBox';
 import HomeHondenBox from '../components/HomeHondenBox';
-import HomeKennisBox from '../components/HomeKennisBox';
+import HomeStressBox from '../components/HomeStressBox';
 
 import AdemSlider from '../components/AdemSlider';
 import CoachingSlider from '../components/CoachingSlider';
@@ -41,12 +41,9 @@ export default function Home() {
             <p>Je hoofd staat niet stil.</p>
             <p>Je denkt de hele dag aan wat je nog moet doen, de dingen waar je tegen op ziet en nog niet aan toegekomen bent, de afspraken die je nog hebt, de tijd die je tekort komt.</p>
             <p>Je komt niet tot ontspanning.</p>
-            <p>Je hoofd staat niet stil, negatieve gedachten dringen zich op en je denken gaat maar door.</p>
-            <p>Je piekert over van alles.</p>
+            <p>Je hoofd staat niet stil, negatieve gedachten dringen zich op en je denken gaat maar door. Je piekert over van alles.</p>
 
-            <p>Je hebt het gevoel dat je de controle kwijt raakt, gespannen en overprikkeld bent.</p>
-            <p>Je voelt de druk dat je tekort schiet en niet goed genoeg bent.</p>
-
+            <p>Je hebt het gevoel dat je de controle kwijt raakt, gespannen en overprikkeld bent. Je voelt de druk dat je tekort schiet en niet goed genoeg bent.</p>
             <p>Je slaapt slecht, bent niet veerkrachtig en hebt weinig energie.</p>
             
         </div>
@@ -71,10 +68,10 @@ export default function Home() {
 
         <div className="homepage-boxes">
 
+            <HomeStressBox/>
             <HomeAdemBox/>
             <HomeCoachingBox/>
             <HomeHondenBox/>
-            <HomeKennisBox/>
 
         </div>
 

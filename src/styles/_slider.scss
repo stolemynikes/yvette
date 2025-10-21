@@ -103,6 +103,9 @@
                     text-align: center;
                     padding-bottom: 2%;
                     font-size: var(--fontsize-h2-desktop);
+                            @media (max-width: 500px) {
+                            font-size: 12px;
+        }
                 }
                 p {
                     font-weight: bold;

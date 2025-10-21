@@ -2,14 +2,14 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
-import BoxPhoto from '../assets/images/kennis/BoxFoto.jpg'
+import BoxPhoto from '../assets/images/stressmanagement/Banner.jpg'
 
 //styling
 import '../styles/_homepagebox.scss'
 
 export default function HomeKennisBox() {
   return (
-    <Link to='/kennismakingsgesprek' className='kennisbox-container'>
+    <Link to='/stressmanagement' className='kennisbox-container'>
 
         <div>
             <img src={BoxPhoto} alt="" />
@@ -17,10 +17,10 @@ export default function HomeKennisBox() {
 
         <div>
 
-            <h1>Kennismakingsgesprek</h1>
+            <h1>Stressmanagement</h1>
 
             <div>
-                <p>Ik kijk naar je uit!</p>
+                <p>De verborgen wijsheid van het Hart</p>
             </div>
 
         </div>
